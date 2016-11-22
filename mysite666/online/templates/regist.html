@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>注册</title>
+</head>
+
+<style type="text/css">
+body{background:#E0E0E0;text-align:center;}
+div{width:778px;margin:0 auto;background:#fff;text-align:left;}
+input.a1{BACKGROUND: #00CACA; border:3 solid #DEE3E7; COLOR: #ffffff; FONT-SIZE: 9pt; FONT-STYLE: normal; FONT-VARIANT: normal; FONT-WEIGHT: normal; HEIGHT: 22px; LINE-HEIGHT: normal}
+</style>
+
+<body>
+<h1>注册页面：</h1>
+<form method = 'post' enctype="multipart/form-data">
+    {% csrf_token %}
+    {{uf.as_p}}
+    <input type="submit" value = "ok" class="a1"/>
+</form>
+<br>
+<a href="http://127.0.0.1:8000/online/login/"><input type="submit" name="Submit" value="已有账号点击此登陆" class="a1"></a>
+</body>
+</html>
