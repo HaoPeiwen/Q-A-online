@@ -91,7 +91,7 @@ class QuestionCreateView(LoginRequiredMixin, FrontMixin, CreateView):
     def get_success_url(self):
         questions_list = Question.objects.filter(author=self.request.user).order_by('-publish_time')
         least_question = questions_list[0]
-        return reverse('question-detail', kwargs={'pk':least_question.id})
+        return reverse('question-detail', kwargs={'pk': least_question.id})
 
 
 class CategoryQuestionListView(FrontMixin, ListView):
@@ -123,10 +123,11 @@ class QuestionDetailView(FrontMixin, ListView):
         return context
 
 
-class AnswerCreateView(FrontMixin, CreateView):
+class AnswerCreateView(LoginRequiredMixin, FrontMixin, CreateView):
     model = Answer
     template_name = 'forum/answer_create_form.html'
     fields = ['content']
+    login_url = reverse_lazy('user-login')
 
     def get_context_data(self, *args, **kwargs):
         context = super(AnswerCreateView, self).get_context_data(*args, **kwargs)

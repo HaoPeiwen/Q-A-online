@@ -35,8 +35,5 @@ class Answer(models.Model):
     content = UEditorField(imagePath="forum/question/image/", filePath="forum/question/files/")
     question = models.ForeignKey(Question)
 
-    class Meta:
-        ordering = ['-publish_time']
-
     def __unicode__(self):
         return self.author + '\'s answer'

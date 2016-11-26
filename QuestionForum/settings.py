@@ -25,7 +25,7 @@ SECRET_KEY = '@%zwf8ucq+gmqg-4vhp-3*li4ba(_39p0x7(xx#@i#8%mqr)*g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*','www.sisugo.net', 'sisugo.net', 'www.sisugo.com', 'sisugo.net', 'localhost']
 
 
 # Application definition

@@ -1,18 +1,19 @@
 # coding=utf-8
 from django.contrib.auth import logout, login
 from django.shortcuts import render
-from django.views.generic import CreateView, RedirectView, FormView, ListView
+from django.views.generic import CreateView, RedirectView, FormView, ListView, UpdateView
 from django.core.urlresolvers import reverse_lazy
+
 from website.mixin import FrontMixin
 from django.contrib.auth.models import User
 from authentication.models import MyUser
 from forms import LoginForm
-from django.contrib.auth.mixins import UserPassesTestMixin
+from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
 
 
 class SignupView(FrontMixin, CreateView):
     model = MyUser
-    fields = ['nickname', 'identity']   #在此处删除了‘photo’，使注册时头像上传不是必须项
+    fields = ['nickname', 'identity', 'photo']
     template_name_suffix = '_create_form'
     success_url = reverse_lazy('user-login')
 
@@ -72,3 +73,19 @@ class UserListView(UserPassesTestMixin, ListView):
         context = super(UserListView, self).get_context_data(**kwargs)
         context['active_page'] = 'myuser-list'
         return context
+
+
+class UserPhotoChangeView(LoginRequiredMixin, FrontMixin, UpdateView):
+    login_url = reverse_lazy('user-login')
+    success_url = reverse_lazy('homepage')
+    template_name = 'authentication/photo_change_form.html'
+    fields = ['photo']
+    model = MyUser
+
+    def form_valid(self, form):
+        if int(self.kwargs['pk']) != self.request.user.myuser.id:
+            return self.response_error_page('权限错误')
+        return super(UserPhotoChangeView, self).form_valid(form)
+
+    def response_error_page(self, msg):
+        return render(self.request, 'utils/error_page.html', {'message': msg, 'myuser': self.request.user.myuser})
