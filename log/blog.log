@@ -5928,752 +5928,214 @@ Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 385, in get
     self.model._meta.object_name
 DoesNotExist: Question matching query does not exist.
-[2016-11-26 00:29:26,983] [INFO] basehttp : "GET /authentication/user/login/?next=/forum/question/add/ HTTP/1.1" 200 8752
-[2016-11-26 00:29:27,757] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 200 1047
-[2016-11-26 00:29:27,757] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3121
-[2016-11-26 00:29:27,763] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 200 864
-[2016-11-26 00:29:27,769] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 200 114011
-[2016-11-26 00:29:27,769] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:29:27,792] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 200 34653
-[2016-11-26 00:29:27,803] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 200 86709
-[2016-11-26 00:29:27,861] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:29:27,864] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23320
-[2016-11-26 00:29:29,750] [INFO] basehttp : "GET /authentication/user/login/?next=/forum/question/add/ HTTP/1.1" 200 8752
-[2016-11-26 00:29:29,765] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:29:29,769] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:29:29,770] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:29:29,773] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:29:29,775] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:29:29,776] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:29:29,779] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:29:29,792] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:29:32,799] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
-[2016-11-26 00:29:33,134] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:29:33,161] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:29:46,591] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:29:46,601] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 200 1047
-[2016-11-26 00:29:46,615] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 200 86709
-[2016-11-26 00:29:46,701] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:29:46,894] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
-[2016-11-26 00:30:00,555] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
-[2016-11-26 00:30:01,104] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:30:01,125] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:30:01,128] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:30:01,130] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:30:01,131] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:30:01,134] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:30:01,137] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:30:01,141] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:30:01,194] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:30:01,194] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:30:01,305] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
-[2016-11-26 00:30:02,546] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 18863
-[2016-11-26 00:30:02,592] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 200 17384
-[2016-11-26 00:30:02,594] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:30:12,301] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:01,161] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:01,638] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:01,802] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:01,966] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:02,507] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:02,526] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:02,528] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:02,530] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:02,532] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:02,536] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:02,536] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:02,539] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:02,552] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:31:02,940] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:02,957] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:02,957] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:02,961] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:02,961] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:02,963] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:02,964] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:02,969] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:02,983] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:31:03,131] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:03,147] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:03,147] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,148] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:03,148] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,148] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,151] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,161] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:03,177] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:31:03,305] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:03,319] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:03,319] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:03,319] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,322] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,322] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,325] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,329] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:03,345] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:31:03,457] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:03,470] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:03,471] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:03,471] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,473] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,473] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,476] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,480] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:03,496] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:31:03,617] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:03,630] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:03,630] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:03,631] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,634] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,634] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,634] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,640] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:03,658] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:31:03,779] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:03,792] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:03,792] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:03,795] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,795] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,796] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,798] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,802] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:03,816] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:31:03,948] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:03,964] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:03,963] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:03,964] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,966] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,966] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,967] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:03,973] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:03,992] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:31:04,111] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:04,128] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:04,128] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:04,128] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,130] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,130] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,131] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,138] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:04,151] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:31:04,289] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:04,302] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:04,302] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,302] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:04,305] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,305] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,308] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,312] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:04,328] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:31:04,467] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:04,480] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:04,480] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:04,483] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,484] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,486] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,487] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,493] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:04,507] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:31:04,661] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:04,674] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:04,674] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:04,674] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,677] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,677] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,680] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,684] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:04,700] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:31:04,841] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:04,854] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:04,854] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:04,855] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,855] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,857] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,858] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:04,864] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:04,881] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:31:05,009] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:05,023] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:05,023] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:05,025] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:05,028] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:05,029] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:05,029] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:05,035] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:05,049] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:31:05,201] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:05,216] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:05,217] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:05,217] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:05,221] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:05,221] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:05,224] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:05,233] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:05,246] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:31:05,364] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:31:05,377] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:31:05,378] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:05,378] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:31:05,378] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:31:05,380] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:31:05,381] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:31:05,385] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:31:05,400] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:33:10,210] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:33:10,822] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:33:11,265] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:33:12,049] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:33:12,065] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:33:12,065] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:33:12,066] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,069] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,069] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,072] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,075] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:33:12,088] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:33:12,496] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:33:12,509] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:33:12,510] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,512] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:33:12,513] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,513] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,516] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,520] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:33:12,539] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:33:12,690] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:33:12,703] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:33:12,703] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:33:12,703] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,704] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,706] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,707] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,711] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:33:12,729] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:33:12,836] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:33:12,849] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,849] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:33:12,849] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:33:12,851] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,851] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,855] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:33:12,859] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:33:12,878] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:33:42,796] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:33:42,808] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:33:42,808] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:33:42,811] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:33:42,812] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:42,812] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:42,813] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:33:42,819] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:33:42,834] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:33:43,211] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:33:43,226] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:33:43,227] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:33:43,230] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,230] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,230] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,233] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,236] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:33:43,252] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:33:43,394] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:33:43,407] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:33:43,407] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,407] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:33:43,408] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,408] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,411] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,415] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:33:43,434] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:33:43,556] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:33:43,569] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:33:43,571] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:33:43,572] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,572] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,573] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,575] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,581] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:33:43,595] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:33:43,710] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:33:43,723] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:33:43,726] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:33:43,730] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,730] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,730] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,732] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,736] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:33:43,750] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:33:43,914] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:33:43,927] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:33:43,927] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:33:43,927] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,930] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,930] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,934] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:33:43,937] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:33:43,957] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:35:10,729] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:35:10,752] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:35:10,753] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:35:10,755] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:35:10,759] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:35:10,759] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:35:10,762] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:35:10,767] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:35:10,782] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:35:11,230] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:35:11,243] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:35:11,243] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:35:11,243] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,244] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,246] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,246] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,252] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:35:11,269] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:35:11,407] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:35:11,424] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,424] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:35:11,424] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:35:11,426] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,426] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,427] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,430] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:35:11,450] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:35:11,453] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:35:11,568] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:35:11,581] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:35:11,582] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:35:11,585] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,586] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,588] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,589] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,592] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:35:11,607] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:35:11,720] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:35:11,733] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:35:11,734] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:35:11,734] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,737] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,737] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,740] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:35:11,743] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:35:11,767] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:35:12,443] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 18863
-[2016-11-26 00:35:12,486] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 00:35:12,490] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:35:15,325] [INFO] basehttp : "GET /forum/question/9/detail/ HTTP/1.1" 200 12442
-[2016-11-26 00:35:15,358] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:35:15,667] [INFO] basehttp : "GET /media/user/photo/2016/11/24/IMG_5700.JPG HTTP/1.1" 200 44738
-[2016-11-26 00:35:15,668] [INFO] basehttp : "GET /media/user/photo/2016/11/24/33546851868fad9f5e648dd09.gif HTTP/1.1" 200 732848
-[2016-11-26 00:35:19,246] [INFO] basehttp : "GET /forum/question/7/detail/ HTTP/1.1" 200 14031
-[2016-11-26 00:35:19,279] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161124223724.jpg HTTP/1.1" 200 2571
-[2016-11-26 00:35:19,279] [INFO] basehttp : "GET /media/forum/answer/images/20161124233814139.jpg HTTP/1.1" 200 3651
-[2016-11-26 00:35:19,280] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:35:23,285] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:36:28,138] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
-[2016-11-26 00:36:29,507] [INFO] basehttp : "GET /forum/question/7/detail/ HTTP/1.1" 200 14030
-[2016-11-26 00:36:29,523] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:36:29,525] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:36:29,526] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:36:29,529] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:36:29,529] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:36:29,532] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:36:29,546] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 00:36:29,548] [INFO] basehttp : "GET /media/user/photo/2016/11/24/33546851868fad9f5e648dd09.gif HTTP/1.1" 304 0
-[2016-11-26 00:36:29,549] [INFO] basehttp : "GET /static/image/logo.png HTTP/1.1" 200 37876
-[2016-11-26 00:36:29,555] [INFO] basehttp : "GET /media/forum/answer/images/20161124233814139.jpg HTTP/1.1" 304 0
-[2016-11-26 00:36:29,558] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161124223724.jpg HTTP/1.1" 304 0
-[2016-11-26 00:36:29,561] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:36:29,562] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 200 441642
-[2016-11-26 00:37:00,302] [INFO] basehttp : "GET /forum/question/7/detail/ HTTP/1.1" 200 14031
-[2016-11-26 00:37:00,313] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:37:00,318] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:37:00,321] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:37:00,323] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:37:00,325] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:37:00,325] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:37:00,338] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
-[2016-11-26 00:37:00,338] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 00:37:00,341] [INFO] basehttp : "GET /media/user/photo/2016/11/24/33546851868fad9f5e648dd09.gif HTTP/1.1" 304 0
-[2016-11-26 00:37:00,342] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 200 37876
-[2016-11-26 00:37:00,344] [INFO] basehttp : "GET /media/forum/answer/images/20161124233814139.jpg HTTP/1.1" 304 0
-[2016-11-26 00:37:00,345] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161124223724.jpg HTTP/1.1" 304 0
-[2016-11-26 00:37:00,348] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:37:00,908] [INFO] basehttp : "GET /forum/question/7/detail/ HTTP/1.1" 200 14031
-[2016-11-26 00:37:00,921] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:37:00,924] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:37:00,927] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:37:00,928] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:37:00,930] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:37:00,930] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:37:00,941] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 00:37:00,946] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
-[2016-11-26 00:37:00,947] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 00:37:00,950] [INFO] basehttp : "GET /media/user/photo/2016/11/24/33546851868fad9f5e648dd09.gif HTTP/1.1" 304 0
-[2016-11-26 00:37:00,950] [INFO] basehttp : "GET /media/forum/answer/images/20161124233814139.jpg HTTP/1.1" 304 0
-[2016-11-26 00:37:00,953] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161124223724.jpg HTTP/1.1" 304 0
-[2016-11-26 00:37:00,954] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:37:01,174] [INFO] basehttp : "GET /forum/question/7/detail/ HTTP/1.1" 200 14031
-[2016-11-26 00:37:01,190] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:37:01,191] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:37:01,193] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,198] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,200] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,201] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,213] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 00:37:01,217] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
-[2016-11-26 00:37:01,217] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 00:37:01,220] [INFO] basehttp : "GET /media/user/photo/2016/11/24/33546851868fad9f5e648dd09.gif HTTP/1.1" 304 0
-[2016-11-26 00:37:01,220] [INFO] basehttp : "GET /media/forum/answer/images/20161124233814139.jpg HTTP/1.1" 304 0
-[2016-11-26 00:37:01,223] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161124223724.jpg HTTP/1.1" 304 0
-[2016-11-26 00:37:01,226] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:37:01,368] [INFO] basehttp : "GET /forum/question/7/detail/ HTTP/1.1" 200 14031
-[2016-11-26 00:37:01,384] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:37:01,385] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:37:01,388] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,391] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,392] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,392] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,405] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 00:37:01,408] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
-[2016-11-26 00:37:01,408] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 00:37:01,411] [INFO] basehttp : "GET /media/user/photo/2016/11/24/33546851868fad9f5e648dd09.gif HTTP/1.1" 304 0
-[2016-11-26 00:37:01,413] [INFO] basehttp : "GET /media/forum/answer/images/20161124233814139.jpg HTTP/1.1" 304 0
-[2016-11-26 00:37:01,414] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161124223724.jpg HTTP/1.1" 304 0
-[2016-11-26 00:37:01,417] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:37:01,555] [INFO] basehttp : "GET /forum/question/7/detail/ HTTP/1.1" 200 14031
-[2016-11-26 00:37:01,558] [ERROR] basehttp : "GET /forum/question/7/detail/ HTTP/1.1" 500 59
-[2016-11-26 00:37:01,691] [INFO] basehttp : "GET /forum/question/7/detail/ HTTP/1.1" 200 14031
-[2016-11-26 00:37:01,710] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:37:01,710] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:37:01,719] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,723] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,724] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,726] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,739] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:37:01,760] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 00:37:01,765] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
-[2016-11-26 00:37:01,770] [INFO] basehttp : "GET /media/forum/answer/images/20161124233814139.jpg HTTP/1.1" 304 0
-[2016-11-26 00:37:01,775] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161124223724.jpg HTTP/1.1" 304 0
-[2016-11-26 00:37:01,917] [INFO] basehttp : "GET /media/user/photo/2016/11/24/33546851868fad9f5e648dd09.gif HTTP/1.1" 304 0
-[2016-11-26 00:37:01,920] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 00:37:01,960] [INFO] basehttp : "GET /forum/question/7/detail/ HTTP/1.1" 200 14031
-[2016-11-26 00:37:01,976] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:37:01,976] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:37:01,977] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,980] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,983] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,983] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:37:01,994] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 00:37:01,997] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
-[2016-11-26 00:37:02,000] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 00:37:02,002] [INFO] basehttp : "GET /media/user/photo/2016/11/24/33546851868fad9f5e648dd09.gif HTTP/1.1" 304 0
-[2016-11-26 00:37:02,003] [INFO] basehttp : "GET /media/forum/answer/images/20161124233814139.jpg HTTP/1.1" 304 0
-[2016-11-26 00:37:02,003] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161124223724.jpg HTTP/1.1" 304 0
-[2016-11-26 00:37:02,006] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:37:04,522] [INFO] basehttp : "GET /authentication/user/signup/ HTTP/1.1" 200 11510
-[2016-11-26 00:38:21,401] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
-[2016-11-26 00:38:23,444] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 00:38:23,473] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 00:38:23,474] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 00:38:23,479] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 00:38:23,480] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 00:38:23,483] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 00:38:23,484] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 00:38:23,486] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 00:38:23,542] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 00:38:23,673] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
-[2016-11-26 00:38:28,000] [INFO] basehttp : "GET /forum/question/6/detail/ HTTP/1.1" 200 14132
-[2016-11-26 00:38:28,058] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 00:38:28,059] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161124223724.jpg HTTP/1.1" 304 0
-[2016-11-26 00:38:28,059] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
-[2016-11-26 00:38:32,421] [INFO] basehttp : "GET /forum/question/9/detail/ HTTP/1.1" 200 12442
-[2016-11-26 00:38:32,451] [INFO] basehttp : "GET /media/user/photo/2016/11/24/IMG_5700.JPG HTTP/1.1" 304 0
-[2016-11-26 00:38:32,451] [INFO] basehttp : "GET /media/user/photo/2016/11/24/33546851868fad9f5e648dd09.gif HTTP/1.1" 304 0
-[2016-11-26 00:38:41,313] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 18863
-[2016-11-26 00:38:48,401] [INFO] basehttp : "GET /authentication/user/login/ HTTP/1.1" 200 8752
-[2016-11-26 00:38:50,085] [INFO] basehttp : "POST /authentication/user/login/ HTTP/1.1" 302 0
-[2016-11-26 00:38:50,127] [INFO] basehttp : "GET / HTTP/1.1" 200 14343
-[2016-11-26 00:38:52,479] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 19762
-[2016-11-26 00:38:54,552] [INFO] basehttp : "GET /forum/question/10/answer/ HTTP/1.1" 200 10980
-[2016-11-26 00:38:54,602] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/answer/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/answer/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480091934599 HTTP/1.1" 200 2171
-[2016-11-26 00:38:54,974] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480091934748 HTTP/1.1" 200 3933
-[2016-11-26 00:38:58,806] [INFO] basehttp : "POST /forum/question/10/answer/ HTTP/1.1" 302 0
-[2016-11-26 00:38:58,997] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 21032
-[2016-11-26 01:01:58,022] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
-[2016-11-26 01:01:59,059] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 01:01:59,092] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 01:01:59,092] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 01:01:59,092] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 01:01:59,094] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 01:01:59,095] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 01:01:59,095] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 01:01:59,098] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 01:01:59,155] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 01:01:59,272] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
-[2016-11-26 01:02:05,486] [INFO] basehttp : "GET /authentication/user/signup/ HTTP/1.1" 200 11510
-[2016-11-26 01:02:29,404] [INFO] basehttp : "POST /authentication/user/signup/ HTTP/1.1" 302 0
-[2016-11-26 01:02:29,418] [INFO] basehttp : "GET /authentication/user/login/ HTTP/1.1" 200 8752
-[2016-11-26 01:02:34,601] [INFO] basehttp : "POST /authentication/user/login/ HTTP/1.1" 302 0
-[2016-11-26 01:02:34,644] [INFO] basehttp : "GET / HTTP/1.1" 200 14400
-[2016-11-26 01:02:34,671] [INFO] basehttp : "GET /static/image/default.png HTTP/1.1" 304 0
-[2016-11-26 01:02:43,618] [ERROR] exception : Internal Server Error: /authentication/user/photo/10/update/
+[2016-11-26 12:49:02,075] [ERROR] exception : Internal Server Error: /authentication/user/signup/
 Traceback (most recent call last):
-  File "P:\Python27\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\exception.py", line 39, in inner
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 39, in inner
     response = get_response(request)
-  File "P:\Python27\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 217, in _get_response
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
     response = self.process_exception_by_middleware(e, request)
-  File "P:\Python27\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 215, in _get_response
-    response = response.render()
-  File "P:\Python27\lib\site-packages\django-1.10.3-py2.7.egg\django\template\response.py", line 109, in render
-    self.content = self.rendered_content
-  File "P:\Python27\lib\site-packages\django-1.10.3-py2.7.egg\django\template\response.py", line 84, in rendered_content
-    template = self.resolve_template(self.template_name)
-  File "P:\Python27\lib\site-packages\django-1.10.3-py2.7.egg\django\template\response.py", line 66, in resolve_template
-    return select_template(template, using=self.using)
-  File "P:\Python27\lib\site-packages\django-1.10.3-py2.7.egg\django\template\loader.py", line 53, in select_template
-    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
-TemplateDoesNotExist: authentication/photo_change_form.html
-[2016-11-26 01:02:43,618] [ERROR] exception : Internal Server Error: /authentication/user/photo/10/update/
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/edit.py", line 217, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/edit.py", line 183, in post
+    return self.form_valid(form)
+  File "./authentication/views.py", line 24, in form_valid
+    user = User.objects.create_user(username=username, email=email, password=password)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 157, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 151, in _create_user
+    user.save(using=self._db)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/base_user.py", line 80, in save
+    super(AbstractBaseUser, self).save(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 796, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 824, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 908, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 947, in _do_insert
+    using=using, raw=raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1045, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 1054, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/sqlite3/base.py", line 337, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: UNIQUE constraint failed: auth_user.username
+[2016-11-26 12:49:02,075] [ERROR] exception : Internal Server Error: /authentication/user/signup/
 Traceback (most recent call last):
-  File "P:\Python27\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\exception.py", line 39, in inner
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 39, in inner
     response = get_response(request)
-  File "P:\Python27\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 217, in _get_response
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
     response = self.process_exception_by_middleware(e, request)
-  File "P:\Python27\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 215, in _get_response
-    response = response.render()
-  File "P:\Python27\lib\site-packages\django-1.10.3-py2.7.egg\django\template\response.py", line 109, in render
-    self.content = self.rendered_content
-  File "P:\Python27\lib\site-packages\django-1.10.3-py2.7.egg\django\template\response.py", line 84, in rendered_content
-    template = self.resolve_template(self.template_name)
-  File "P:\Python27\lib\site-packages\django-1.10.3-py2.7.egg\django\template\response.py", line 66, in resolve_template
-    return select_template(template, using=self.using)
-  File "P:\Python27\lib\site-packages\django-1.10.3-py2.7.egg\django\template\loader.py", line 53, in select_template
-    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
-TemplateDoesNotExist: authentication/photo_change_form.html
-[2016-11-26 01:02:43,676] [ERROR] basehttp : "GET /authentication/user/photo/10/update/ HTTP/1.1" 500 82743
-[2016-11-26 01:04:35,158] [INFO] basehttp : "GET /authentication/user/photo/10/update/ HTTP/1.1" 200 9433
-[2016-11-26 01:04:35,184] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 01:04:35,184] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 01:04:35,186] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 01:04:35,187] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 01:04:35,187] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 01:04:35,188] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 01:04:35,193] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 01:04:35,194] [INFO] basehttp : "GET /static/image/default.png HTTP/1.1" 304 0
-[2016-11-26 01:04:35,210] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 01:04:46,068] [INFO] basehttp : "POST /authentication/user/photo/10/update/ HTTP/1.1" 302 0
-[2016-11-26 01:04:46,108] [INFO] basehttp : "GET / HTTP/1.1" 200 14425
-[2016-11-26 01:04:46,302] [INFO] basehttp : "GET /media/user/photo/2016/11/26/-5fa930fdd531f3ab.jpg HTTP/1.1" 200 3651
-[2016-11-26 01:04:51,690] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 21610
-[2016-11-26 01:04:51,736] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 01:04:51,736] [INFO] basehttp : "GET /media/user/photo/2016/11/26/-5fa930fdd531f3ab.jpg HTTP/1.1" 304 0
-[2016-11-26 01:04:58,839] [INFO] basehttp : "GET /authentication/user/photo/10/update/ HTTP/1.1" 200 9458
-[2016-11-26 01:05:50,308] [INFO] basehttp : "GET / HTTP/1.1" 200 14425
-[2016-11-26 01:05:50,319] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 01:05:50,321] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 01:05:50,325] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 01:05:50,326] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 01:05:50,328] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 01:05:50,331] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 01:05:50,332] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 01:05:50,335] [INFO] basehttp : "GET /media/user/photo/2016/11/26/-5fa930fdd531f3ab.jpg HTTP/1.1" 304 0
-[2016-11-26 01:05:50,348] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 01:05:51,454] [INFO] basehttp : "GET /authentication/user/logout/ HTTP/1.1" 302 0
-[2016-11-26 01:05:51,490] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 01:05:52,088] [INFO] basehttp : "GET /authentication/user/signup/ HTTP/1.1" 200 11521
-[2016-11-26 01:06:07,844] [INFO] basehttp : "GET /authentication/user/signup/ HTTP/1.1" 200 11521
-[2016-11-26 01:06:07,858] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 01:06:07,858] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 01:06:07,862] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 01:06:07,865] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 01:06:07,867] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 01:06:07,868] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 01:06:07,868] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 01:06:07,887] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 01:06:21,148] [INFO] basehttp : "GET /authentication/user/signup/ HTTP/1.1" 200 11527
-[2016-11-26 01:06:21,163] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 01:06:21,163] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 01:06:21,164] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 01:06:21,167] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 01:06:21,170] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 01:06:21,171] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 01:06:21,171] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 01:06:21,187] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 01:06:33,971] [INFO] basehttp : "GET /authentication/user/signup/ HTTP/1.1" 200 11521
-[2016-11-26 01:06:33,990] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 01:06:33,990] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 01:06:33,993] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 01:06:33,996] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 01:06:33,997] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 01:06:33,999] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 01:06:34,000] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 01:06:34,016] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 01:29:28,789] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 01:29:28,821] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 01:29:28,822] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 01:29:28,826] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 01:29:28,828] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 01:29:28,831] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 01:29:28,832] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 01:29:28,834] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 01:29:28,878] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 01:29:30,342] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 22461
-[2016-11-26 01:29:30,387] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 01:30:55,471] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 22461
-[2016-11-26 01:30:55,507] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 01:30:55,512] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 01:30:55,512] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 01:30:55,512] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 01:30:55,513] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 01:30:55,516] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 01:30:55,519] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 01:30:55,522] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 01:30:55,533] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 01:30:57,112] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 22461
-[2016-11-26 01:30:57,148] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 01:30:57,151] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 01:30:57,151] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 01:30:57,153] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 01:30:57,154] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 01:30:57,155] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 01:30:57,160] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 01:30:57,161] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 01:30:57,173] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 01:32:05,190] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 22533
-[2016-11-26 01:32:05,229] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 01:32:05,232] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 01:32:05,233] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 01:32:05,234] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 01:32:05,236] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 01:32:05,236] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 01:32:05,242] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 01:32:05,243] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 01:32:05,257] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 01:35:22,180] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
-[2016-11-26 01:35:22,959] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 01:35:23,165] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
-[2016-11-26 01:35:24,332] [INFO] basehttp : "GET /forum/question/9/detail/ HTTP/1.1" 200 13393
-[2016-11-26 01:35:24,371] [INFO] basehttp : "GET /media/user/photo/2016/11/24/IMG_5700.JPG HTTP/1.1" 304 0
-[2016-11-26 01:36:13,210] [INFO] basehttp : "GET /forum/question/9/detail/ HTTP/1.1" 200 13244
-[2016-11-26 01:36:13,223] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 01:36:13,224] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 01:36:13,226] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 01:36:13,229] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 01:36:13,230] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 01:36:13,230] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 01:36:13,236] [INFO] basehttp : "GET /media/user/photo/2016/11/24/IMG_5700.JPG HTTP/1.1" 304 0
-[2016-11-26 01:36:13,237] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 01:36:13,253] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 01:36:16,970] [INFO] basehttp : "GET /forum/question/9/detail/ HTTP/1.1" 200 13244
-[2016-11-26 01:36:16,984] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 01:36:16,987] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 01:36:16,989] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 01:36:16,990] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 01:36:16,992] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 01:36:16,993] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 01:36:16,999] [INFO] basehttp : "GET /media/user/photo/2016/11/24/IMG_5700.JPG HTTP/1.1" 304 0
-[2016-11-26 01:36:16,999] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 01:36:17,010] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 01:36:46,913] [INFO] basehttp : "GET /forum/question/9/detail/ HTTP/1.1" 200 13089
-[2016-11-26 01:36:46,926] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 01:36:46,926] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 01:36:46,928] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 01:36:46,931] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 01:36:46,933] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 01:36:46,934] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 01:36:46,938] [INFO] basehttp : "GET /media/user/photo/2016/11/24/IMG_5700.JPG HTTP/1.1" 304 0
-[2016-11-26 01:36:46,940] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 01:36:46,953] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 01:38:14,394] [INFO] basehttp : "GET /forum/question/9/detail/ HTTP/1.1" 200 13089
-[2016-11-26 01:38:14,408] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 01:38:14,408] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 01:38:14,411] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 01:38:14,414] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 01:38:14,415] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 01:38:14,417] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 01:38:14,424] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 01:38:14,423] [INFO] basehttp : "GET /media/user/photo/2016/11/24/IMG_5700.JPG HTTP/1.1" 304 0
-[2016-11-26 01:38:14,434] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 10:44:42,545] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
-[2016-11-26 10:44:44,461] [INFO] basehttp : "GET / HTTP/1.1" 200 13452
-[2016-11-26 10:44:44,490] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 10:44:44,490] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 10:44:44,493] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 10:44:44,493] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 10:44:44,496] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 10:44:44,496] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 10:44:44,555] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 10:44:44,601] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 10:44:44,710] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
-[2016-11-26 10:44:45,987] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 22653
-[2016-11-26 10:44:46,036] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 10:47:59,812] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 22657
-[2016-11-26 10:47:59,849] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 10:47:59,852] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 10:47:59,854] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 10:47:59,854] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 10:47:59,855] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 10:47:59,858] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 10:47:59,862] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 10:47:59,862] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 10:47:59,875] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 10:48:00,796] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 22657
-[2016-11-26 10:48:00,835] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 10:48:00,836] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 10:48:00,838] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 10:48:00,838] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 10:48:00,841] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 10:48:00,842] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 10:48:00,846] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 10:48:00,846] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 10:48:00,970] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 22657
-[2016-11-26 10:48:01,006] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 10:48:01,007] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 10:48:01,009] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 10:48:01,010] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 10:48:01,013] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 10:48:01,013] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 10:48:01,019] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 10:48:01,019] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 10:48:01,154] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 22657
-[2016-11-26 10:48:01,190] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 10:48:01,193] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 10:48:01,194] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 10:48:01,197] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 10:48:01,197] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 10:48:01,197] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 10:48:01,203] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 10:48:01,203] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 10:48:01,217] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 10:48:02,655] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 22657
-[2016-11-26 10:48:02,703] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 10:48:02,703] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 10:48:02,706] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 10:48:02,709] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 10:48:02,710] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 10:48:02,710] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 10:48:02,714] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 10:48:02,716] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 10:48:02,730] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 10:48:04,321] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 22657
-[2016-11-26 10:48:04,358] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 10:48:04,358] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 10:48:04,361] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 10:48:04,364] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 10:48:04,365] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 10:48:04,365] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 10:48:04,371] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 10:48:04,371] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 10:48:04,391] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
-[2016-11-26 10:49:17,267] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 22657
-[2016-11-26 10:49:59,628] [INFO] basehttp : "GET /forum/question/10/detail/ HTTP/1.1" 200 22698
-[2016-11-26 10:49:59,663] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
-[2016-11-26 10:49:59,665] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
-[2016-11-26 10:49:59,667] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
-[2016-11-26 10:49:59,667] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
-[2016-11-26 10:49:59,668] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
-[2016-11-26 10:49:59,670] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
-[2016-11-26 10:49:59,674] [INFO] basehttp : "GET /media/user/photo/2016/11/24/QQ%E5%9B%BE%E7%89%8720161123202858.png HTTP/1.1" 304 0
-[2016-11-26 10:49:59,674] [INFO] basehttp : "GET /static/image/logo1.png HTTP/1.1" 304 0
-[2016-11-26 10:49:59,690] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/edit.py", line 217, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/edit.py", line 183, in post
+    return self.form_valid(form)
+  File "./authentication/views.py", line 24, in form_valid
+    user = User.objects.create_user(username=username, email=email, password=password)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 157, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 151, in _create_user
+    user.save(using=self._db)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/base_user.py", line 80, in save
+    super(AbstractBaseUser, self).save(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 796, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 824, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 908, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 947, in _do_insert
+    using=using, raw=raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1045, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 1054, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/sqlite3/base.py", line 337, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: UNIQUE constraint failed: auth_user.username
+[2016-11-26 13:15:18,787] [ERROR] exception : Internal Server Error: /authentication/user/signup/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 39, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/edit.py", line 217, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/edit.py", line 183, in post
+    return self.form_valid(form)
+  File "./authentication/views.py", line 24, in form_valid
+    user = User.objects.create_user(username=username, email=email, password=password)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 157, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 151, in _create_user
+    user.save(using=self._db)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/base_user.py", line 80, in save
+    super(AbstractBaseUser, self).save(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 796, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 824, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 908, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 947, in _do_insert
+    using=using, raw=raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1045, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 1054, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/sqlite3/base.py", line 337, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: UNIQUE constraint failed: auth_user.username
+[2016-11-26 13:15:18,787] [ERROR] exception : Internal Server Error: /authentication/user/signup/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 39, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/edit.py", line 217, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/edit.py", line 183, in post
+    return self.form_valid(form)
+  File "./authentication/views.py", line 24, in form_valid
+    user = User.objects.create_user(username=username, email=email, password=password)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 157, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 151, in _create_user
+    user.save(using=self._db)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/base_user.py", line 80, in save
+    super(AbstractBaseUser, self).save(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 796, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 824, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 908, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 947, in _do_insert
+    using=using, raw=raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1045, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 1054, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/sqlite3/base.py", line 337, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: UNIQUE constraint failed: auth_user.username
+[2016-11-26 13:53:57,125] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
+[2016-11-26 13:53:57,437] [INFO] basehttp : "GET / HTTP/1.1" 200 15750
+[2016-11-26 13:53:57,621] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 200 1047
+[2016-11-26 13:53:57,674] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
+[2016-11-26 13:53:59,989] [INFO] basehttp : "GET /forum/question/12/detail/ HTTP/1.1" 200 11590
+[2016-11-26 13:54:00,016] [INFO] basehttp : "GET /media/user/photo/2016/11/26/IMG_0645.JPG HTTP/1.1" 200 63082
+[2016-11-26 13:54:03,394] [INFO] basehttp : "GET /authentication/user/login/ HTTP/1.1" 200 8680
+[2016-11-26 13:54:03,403] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
+[2016-11-26 13:54:04,642] [INFO] basehttp : "POST /authentication/user/login/ HTTP/1.1" 302 0
+[2016-11-26 13:54:04,687] [INFO] basehttp : "GET / HTTP/1.1" 200 16745
+[2016-11-26 13:54:06,592] [INFO] basehttp : "GET /forum/question/11/detail/ HTTP/1.1" 200 20986
+[2016-11-26 13:54:06,638] [INFO] basehttp : "GET /static/image/default.png HTTP/1.1" 200 70288
+[2016-11-26 13:54:06,644] [INFO] basehttp : "GET /media/forum/answer/images/20161126113053952.jpg HTTP/1.1" 200 3651
+[2016-11-26 13:54:06,648] [INFO] basehttp : "GET /media/forum/answer/images/20161126114904640.png HTTP/1.1" 200 114458
+[2016-11-26 13:54:06,650] [INFO] basehttp : "GET /static/image/default1.png HTTP/1.1" 200 92777
