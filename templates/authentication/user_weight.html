@@ -1,10 +1,17 @@
+{% load staticfiles %}
 <div class="col-md-12 article">
     <div class="col-md-12 text-center">
         <h2 class="category-header">个人信息</h2>
         <hr>
     </div>
     <div class="col-md-12 text-center">
-        <img src="{% url 'media' myuser.photo %}" class="img-circle" width="140" height="140">
+        <a href="{% url 'user-change-photo' myuser.id %}">
+            {% if myuser.photo %}
+                <img src="{% url 'media' myuser.photo %}" class="img-circle" width="140" height="140">
+            {% else %}
+                <img src="{% static 'image/default.png' %}" class="img-circle" width="140" height="140">
+            {% endif %}
+        </a>
     </div>
     <div class="col-md-12 text-center">
         <h3 class="text-info">

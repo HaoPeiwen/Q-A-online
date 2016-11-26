@@ -1,0 +1,32 @@
+{% extends 'website/frontend/frontend_base.html' %}
+
+{% block title %}修改头像{% endblock %}
+
+{% block external_head %}{% endblock %}
+
+
+{% block left %}
+    <div class="col-md-12 article">
+        <h2 class="text-center text-info">修改头像</h2>
+        <div class="col-md-6 col-md-offset-3">
+            <form class="form-horizontal" method="post" id="data-form" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="photo" class="col-sm-3 control-label">头像:</label>
+                    <div class="col-sm-9">
+                        <input type="file" class="form-control" id="photo" name="photo" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-6 col-sm-4">
+                        <button type="submit" class="btn btn-primary" id="submit-btn">提交</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block front_js %}
+{% endblock %}

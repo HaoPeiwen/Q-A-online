@@ -1,6 +1,6 @@
 {% extends 'website/frontend/frontend_base.html' %}
 {% load staticfiles %}
-{% block title %}{{ article.title }}{% endblock %}
+{% block title %}{{ question.title }}{% endblock %}
 
 
 {% block external_header %}
@@ -12,7 +12,11 @@
         <div class="col-md-12">
             <div class="col-md-3">
                 <div class="col-md-12 text-center">
-                    <img src="{% url 'media' question.author.myuser.photo %}" class="img-circle" width="140" height="140">
+                    {% if question.author.myuser.photo %}
+                        <img src="{% url 'media' question.author.myuser.photo %}" class="img-circle" width="140" height="140">
+                    {% else %}
+                        <img src="{% static 'image/default.png' %}" class="img-circle" width="140" height="140">
+                    {% endif %}
                 </div>
                 <div class="col-md-12 text-center">
                     <h3 class="text-info">
@@ -33,13 +37,13 @@
                 <div class="col-md-12">
                     <p>电子邮件:<br>{{ question.author.myuser.user.email }}</p>
                     <p>加入时间:<br>{{ question.author.myuser.user.date_joined|date:"Y-m-d" }}</p>
-                    <p>最后登录:<br>{{ question.author.myuser.user.last_login|date:"Y-m-d" }}&nbsp;{{ myuser.user.last_login|time:"H:i:s" }}</p>
+                    <p>最后登录:<p>{{ question.author.myuser.user.last_login|date:"Y-m-d" }}<p>{{ question.author.myuser.user.last_login|time:"H:i:s" }}</p>
                 </div>
             </div>
             <div class="col-md-9">
                 <div class="col-md-12">
                     <h2><a href="#">{{ question.title }}</a></h2>
-                    <p><small><span aria-hidden="true"></span>{{ question.publish_time|date:"Y-m-d" }}&nbsp;{{ question.publish_time|time:"H:i" }}</small></p>
+                    <p><small><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>{{ question.publish_time|date:"Y-m-d" }}&emsp;{{ question.publish_time|time:"H:i:s" }}</small></p>
 
                 </div>
                 <div class="col-md-12">
@@ -68,7 +72,11 @@
                 <div class="col-md-12 article">
                     <div class="col-md-3">
                         <div class="col-md-12 text-center">
-                            <img src="{% url 'media' answer.author.myuser.photo %}" class="img-circle" width="140" height="140">
+                            {% if question.author.myuser.photo %}
+                        		<img src="{% url 'media' question.author.myuser.photo %}" class="img-circle" width="140" height="140">
+                   		    {% else %}
+                       			 <img src="{% static 'image/default.png' %}" class="img-circle" width="140" height="140">
+                  	    	{% endif %}
                         </div>
                         <div class="col-md-12 text-center">
                             <h3 class="text-info">
@@ -83,14 +91,21 @@
                                     <span class="label label-info">
                                         学生
                                     </span>
-                                {% endif %}
-                            </p>
+                                {% endif %}         
                         </div>
+					<div class="col-md-12">
+                    <p>电子邮件:<br>{{ answer.author.myuser.user.email }}</p>
+                    <p>加入时间:<br>{{ answer.author.myuser.user.date_joined|date:"Y-m-d" }}</p>
+                    <p>最后登录:<p>{{ answer.author.myuser.user.last_login|date:"Y-m-d" }}<p>{{ answer.author.myuser.user.last_login|time:"H:i:s" }}</p>
                     </div>
+                    </div>
+					<p>&emsp;&emsp;<small><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>{{ answer.publish_time|date:"Y-m-d" }}&emsp;{{ answer.publish_time|time:"H:i:s" }}</small></p>
                     <div class="col-md-9">
                         <div class="col-md-12">
                             {{ answer.content|safe }}
-                        </div>
+							
+                       
+          			  </div>
                     </div>
                     <hr>
                 </div>
