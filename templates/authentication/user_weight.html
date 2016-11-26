@@ -9,7 +9,11 @@
             {% if myuser.photo %}
                 <img src="{% url 'media' myuser.photo %}" class="img-circle" width="140" height="140">
             {% else %}
+				{% if myuser.identity == 'T' %}
                 <img src="{% static 'image/default.png' %}" class="img-circle" width="140" height="140">
+				{% else %}
+				<img src="{% static 'image/default1.png' %}" class="img-circle" width="140" height="140">
+				{% endif %}
             {% endif %}
         </a>
     </div>
