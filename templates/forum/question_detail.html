@@ -72,8 +72,8 @@
                 <div class="col-md-12 article">
                     <div class="col-md-3">
                         <div class="col-md-12 text-center">
-                            {% if question.author.myuser.photo %}
-                        		<img src="{% url 'media' question.author.myuser.photo %}" class="img-circle" width="140" height="140">
+                            {% if answer.author.myuser.photo %}
+                        		<img src="{% url 'media' answer.author.myuser.photo %}" class="img-circle" width="140" height="140">
                    		    {% else %}
                        			 <img src="{% static 'image/default.png' %}" class="img-circle" width="140" height="140">
                   	    	{% endif %}
