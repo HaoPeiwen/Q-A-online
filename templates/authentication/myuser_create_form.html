@@ -1,0 +1,90 @@
+{% extends 'website/frontend/frontend_base.html' %}
+
+{% block title %}加入我们{% endblock %}
+
+{% block external_head %}{% endblock %}
+
+
+{% block left %}
+    <div class="col-md-12 article">
+        <h2 class="text-center text-info">加入我们</h2>
+        <div class="col-md-6 col-md-offset-3">
+            <form class="form-horizontal" method="post" id="data-form" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="username" class="col-sm-3 control-label">用户名:</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="username" name="username" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="col-sm-3 control-label">密码:</label>
+                    <div class="col-sm-9">
+                        <input type="password" class="form-control" id="password" name="password" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="repeat-password" class="col-sm-3 control-label">重复密码:</label>
+                    <div class="col-sm-9">
+                        <input type="password" class="form-control" id="repeat-password" name="repeat-password" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="nickname" class="col-sm-3 control-label">昵称:</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="nickname" name="nickname" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="identity" class="col-sm-3 control-label">身份:</label>
+                    <div class="col-sm-9">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="identity" value="S" checked>
+                                学生
+                            </label>
+                            <label>
+                                <input type="radio" name="identity" value="T">
+                                教师
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-sm-3 control-label">E-mail:</label>
+                    <div class="col-sm-9">
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="photo" class="col-sm-3 control-label">头像:</label>
+                    <div class="col-sm-9">
+                        <input type="file" class="form-control" id="photo" name="photo" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-6 col-sm-4">
+                        <button type="button" class="btn btn-primary" id="submit-btn">提交</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    {% include 'utils/modal.html' %}
+{% endblock %}
+
+
+{% block front_js %}
+    <script type="text/javascript">
+        var password = $('#password');
+        var repeat_password = $('#repeat-password');
+        $('#submit-btn').on('click', function(e) {
+            e.preventDefault();
+            if (password.val() == repeat_password.val()) {
+                $('#data-form').submit();
+            } else {
+                showModal('danger', "密码不匹配，请重新输入");
+            }
+        })
+    </script>
+{% endblock %}

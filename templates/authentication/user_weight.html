@@ -1,0 +1,34 @@
+<div class="col-md-12 article">
+    <div class="col-md-12 text-center">
+        <h2 class="category-header">个人信息</h2>
+        <hr>
+    </div>
+    <div class="col-md-12 text-center">
+        <img src="{% url 'media' myuser.photo %}" class="img-circle" width="140" height="140">
+    </div>
+    <div class="col-md-12 text-center">
+        <h3 class="text-info">
+            <a href="{% url 'personal-question' myuser.user.id %}">{{ myuser.nickname }}</a>
+        </h3>
+        <p>{{ myuser.user.username }}</p>
+        <p>
+            {% if myuser.identity == 'T' %}
+                <span class="label label-danger">
+                    教师
+                </span>
+            {% else %}
+                <span class="label label-info">
+                    学生
+                </span>
+            {% endif %}
+        </p>
+    </div>
+    <div class="col-md-12">
+        <p>电子邮件:<br>{{ myuser.user.email }}</p>
+        <p>加入时间:<br>{{ myuser.user.date_joined|date:"Y-m-d" }}</p>
+        <p>最后登录:<br>{{ myuser.user.last_login|date:"Y-m-d" }}&nbsp;{{ myuser.user.last_login|time:"H:i:s" }}</p>
+        <p>
+            <a href="{% url 'personal-inviting' myuser.id %}">收到邀请:{{ inviteing_number }}次</a>
+        </p>
+    </div>
+</div>

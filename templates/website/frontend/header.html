@@ -1,0 +1,12 @@
+{% load staticfiles %}
+<img src="{% static 'image/logo.png' %}" width="300px"; height="80px"; style="position:absolute; left:655px; top:110px; ">
+<header>
+    {% include 'website/frontend/navbar.html' %}
+    <div class="jumbotron front-header text-white">
+        <div class="container">
+            <h1>师生问答网</h1>
+            <p> 知 &emsp; 识 &emsp; 改 &emsp; 变 &emsp; 命 &emsp; 运&emsp;&emsp;&emsp;Knowledge Changes Fate</p>
+            <p><a class="btn btn-danger btn-lg" href="{% url 'question-add' %}" role="button">&emsp;去&nbsp;提&nbsp;问&nbsp;→&emsp;</a></p>
+        </div>
+    </div>
+</header>

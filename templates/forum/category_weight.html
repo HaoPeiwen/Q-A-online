@@ -1,0 +1,24 @@
+<div class="col-md-12 article">
+    <div class="col-md-12 text-center">
+        <h2 class="category-header">分类</h2>
+        <hr>
+    </div>
+    <div class="col-md-12">
+        <ul class="list-unstyled">
+            {% for category in category_list %}
+                <li>
+                    <a href="{% url 'category-question-list' category.id %}">
+                        <p>
+                            <span class="text-left">
+                                >&nbsp;{{ category.name }}
+                            </span>
+                            <span class="text-right" style="float: right">
+                                <span class="badge">{{ category.question_num }}</span>
+                            </span>
+                        </p>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

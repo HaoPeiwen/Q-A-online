@@ -1,0 +1,5 @@
+{% include 'announcement/announcement_weight.html' %}
+{% if user.is_authenticated == True %}
+    {% include 'authentication/user_weight.html' %}
+{% endif %}
+{% include 'forum/category_weight.html' %}

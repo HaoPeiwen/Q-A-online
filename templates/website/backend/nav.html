@@ -1,0 +1,7 @@
+<ul class="nav nav-sidebar">
+    <li id="overview"><a href="{% url 'dashboard' %}">总览</a></li>
+</ul>
+{% include 'authentication/user_nav.html' %}
+{% include 'announcement/announcement_nav.html' %}
+{% include 'forum/category_nav.html' %}
+{% include 'forum/question_nav.html' %}

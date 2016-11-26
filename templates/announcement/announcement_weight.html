@@ -1,0 +1,12 @@
+<div class="col-md-12 article">
+    <div class="col-md-12 text-center">
+        <h2 class="category-header">最新公告</h2>
+        <hr>
+    </div>
+    <div class="col-md-12">
+        <p>{{ announcement.content }}</p>
+    </div>
+    <div class="col-md-12">
+        <p class="text-right"><small>{{ announcement.create_time|date:"Y-m-d" }}&nbsp;{{ announcement.create_time|time:"H:i:s" }}</small></p>
+    </div>
+</div>
