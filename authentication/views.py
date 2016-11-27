@@ -1,9 +1,12 @@
 # coding=utf-8
 from django.contrib.auth import logout, login
+from django.db.models import Count
 from django.shortcuts import render
 from django.views.generic import CreateView, RedirectView, FormView, ListView, UpdateView
 from django.core.urlresolvers import reverse_lazy
 
+from announcement.models import Announcement
+from forum.models import Category
 from website.mixin import FrontMixin
 from django.contrib.auth.models import User
 from authentication.models import MyUser
@@ -21,6 +24,8 @@ class SignupView(FrontMixin, CreateView):
         username = form.data.get('username', '')
         password = form.data.get('password', '')
         email = form.data.get('email', '')
+        if User.objects.filter(username=username):
+            return render(self.request, 'utils/error_page.html', {'message': '该用户名已被占用'})
         user = User.objects.create_user(username=username, email=email, password=password)
         user.save()
         form.instance.user = user
@@ -28,7 +33,9 @@ class SignupView(FrontMixin, CreateView):
 
     def form_invalid(self, form):
         print form.errors
-        return render(self.request, 'utils/error_page.html', {'message': form.errors})
+        context = {'message': form.errors, 'announcement': Announcement.objects.all()[0],
+                   'category_list': Category.objects.annotate(question_num=Count('question')).order_by('name')}
+        return render(self.request, 'utils/error_page.html', context)
 
 
 class LogoutView(RedirectView):
@@ -56,7 +63,9 @@ class LoginView(FrontMixin, FormView):
             return self.response_error_page('用户名或密码错误')
 
     def response_error_page(self, msg):
-        return render(self.request, 'utils/error_page.html', {'message': msg})
+        context = {'message': msg, 'announcement': Announcement.objects.all()[0],
+                   'category_list': Category.objects.annotate(question_num=Count('question')).order_by('name')}
+        return render(self.request, 'utils/error_page.html', context)
 
 
 class UserListView(UserPassesTestMixin, ListView):
