@@ -6139,3 +6139,773 @@ IntegrityError: UNIQUE constraint failed: auth_user.username
 [2016-11-26 13:54:06,644] [INFO] basehttp : "GET /media/forum/answer/images/20161126113053952.jpg HTTP/1.1" 200 3651
 [2016-11-26 13:54:06,648] [INFO] basehttp : "GET /media/forum/answer/images/20161126114904640.png HTTP/1.1" 200 114458
 [2016-11-26 13:54:06,650] [INFO] basehttp : "GET /static/image/default1.png HTTP/1.1" 200 92777
+[2016-11-26 23:30:43,339] [INFO] basehttp : "GET / HTTP/1.1" 200 15750
+[2016-11-26 23:30:50,595] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 200 34659
+[2016-11-26 23:30:50,615] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 200 86713
+[2016-11-26 23:30:50,615] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 200 1047
+[2016-11-26 23:30:50,615] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 200 3238
+[2016-11-26 23:30:50,619] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 200 884
+[2016-11-26 23:30:50,641] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 200 114015
+[2016-11-26 23:30:50,687] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-26 23:30:50,881] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23320
+[2016-11-26 23:30:52,519] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
+[2016-11-26 23:31:09,381] [INFO] basehttp : "GET /admin HTTP/1.1" 301 0
+[2016-11-26 23:31:09,585] [INFO] basehttp : "GET /admin/ HTTP/1.1" 302 0
+[2016-11-26 23:31:09,773] [INFO] basehttp : "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1655
+[2016-11-26 23:31:10,006] [INFO] basehttp : "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[2016-11-26 23:31:10,006] [INFO] basehttp : "GET /static/admin/css/base.css HTTP/1.1" 200 15937
+[2016-11-26 23:31:10,089] [INFO] basehttp : "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2016-11-26 23:31:10,164] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2016-11-26 23:31:10,253] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2016-11-26 23:32:31,236] [INFO] basehttp : "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2016-11-26 23:32:31,438] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:32:31,585] [INFO] basehttp : "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2016-11-26 23:32:31,592] [INFO] basehttp : "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[2016-11-26 23:32:31,795] [INFO] basehttp : "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2016-11-26 23:32:31,841] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2016-11-26 23:32:31,845] [INFO] basehttp : "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2016-11-26 23:32:31,868] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2016-11-26 23:32:31,874] [INFO] basehttp : "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2016-11-26 23:32:31,878] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[2016-11-26 23:32:36,184] [INFO] basehttp : "GET /admin/auth/user/ HTTP/1.1" 200 13686
+[2016-11-26 23:32:36,338] [INFO] basehttp : "GET /static/admin/css/changelists.css HTTP/1.1" 200 6117
+[2016-11-26 23:32:36,361] [INFO] basehttp : "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[2016-11-26 23:32:36,394] [INFO] basehttp : "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2016-11-26 23:32:36,423] [INFO] basehttp : "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6577
+[2016-11-26 23:32:36,427] [INFO] basehttp : "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[2016-11-26 23:32:36,430] [INFO] basehttp : "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+[2016-11-26 23:32:36,437] [INFO] basehttp : "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[2016-11-26 23:32:36,448] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:32:36,453] [INFO] basehttp : "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[2016-11-26 23:32:36,474] [INFO] basehttp : "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[2016-11-26 23:32:36,486] [INFO] basehttp : "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2016-11-26 23:32:36,503] [INFO] basehttp : "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[2016-11-26 23:32:36,519] [INFO] basehttp : "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2016-11-26 23:32:36,733] [INFO] basehttp : "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2016-11-26 23:32:36,739] [INFO] basehttp : "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2016-11-26 23:32:50,842] [INFO] basehttp : "GET /admin/auth/user/6/change/ HTTP/1.1" 200 19490
+[2016-11-26 23:32:50,989] [INFO] basehttp : "GET /static/admin/css/forms.css HTTP/1.1" 200 7750
+[2016-11-26 23:32:51,062] [INFO] basehttp : "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+[2016-11-26 23:32:51,078] [INFO] basehttp : "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12389
+[2016-11-26 23:32:51,095] [INFO] basehttp : "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+[2016-11-26 23:32:51,104] [INFO] basehttp : "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+[2016-11-26 23:32:51,121] [INFO] basehttp : "GET /static/admin/js/inlines.js HTTP/1.1" 200 13404
+[2016-11-26 23:32:51,125] [INFO] basehttp : "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[2016-11-26 23:32:51,144] [INFO] basehttp : "GET /static/admin/js/change_form.js HTTP/1.1" 200 698
+[2016-11-26 23:32:51,144] [INFO] basehttp : "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[2016-11-26 23:32:51,157] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:32:51,823] [INFO] basehttp : "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[2016-11-26 23:32:51,825] [INFO] basehttp : "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[2016-11-26 23:32:51,832] [INFO] basehttp : "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[2016-11-26 23:32:51,881] [INFO] basehttp : "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[2016-11-26 23:32:51,891] [INFO] basehttp : "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[2016-11-26 23:36:23,687] [INFO] basehttp : "GET /admin HTTP/1.1" 301 0
+[2016-11-26 23:36:24,040] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:36:24,286] [INFO] basehttp : "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2016-11-26 23:36:24,292] [INFO] basehttp : "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2016-11-26 23:36:24,411] [INFO] basehttp : "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2016-11-26 23:36:24,437] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2016-11-26 23:36:24,441] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2016-11-26 23:36:24,444] [INFO] basehttp : "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2016-11-26 23:36:24,448] [INFO] basehttp : "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2016-11-26 23:36:24,453] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2016-11-26 23:36:24,720] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
+[2016-11-26 23:36:26,946] [INFO] basehttp : "GET /admin/auth/group/ HTTP/1.1" 200 3363
+[2016-11-26 23:36:27,181] [INFO] basehttp : "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2016-11-26 23:36:27,210] [INFO] basehttp : "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2016-11-26 23:36:27,210] [INFO] basehttp : "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2016-11-26 23:36:27,257] [INFO] basehttp : "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2016-11-26 23:36:27,263] [INFO] basehttp : "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2016-11-26 23:36:27,279] [INFO] basehttp : "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2016-11-26 23:36:27,296] [INFO] basehttp : "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2016-11-26 23:36:27,301] [INFO] basehttp : "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2016-11-26 23:36:27,312] [INFO] basehttp : "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2016-11-26 23:36:27,313] [INFO] basehttp : "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[2016-11-26 23:36:27,328] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:36:27,523] [INFO] basehttp : "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2016-11-26 23:36:30,638] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:36:32,703] [INFO] basehttp : "GET /admin/announcement/announcement/ HTTP/1.1" 200 7144
+[2016-11-26 23:36:32,857] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:36:35,164] [INFO] basehttp : "GET /admin/announcement/announcement/4/change/ HTTP/1.1" 200 6099
+[2016-11-26 23:36:35,316] [INFO] basehttp : "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[2016-11-26 23:36:35,361] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:36:35,364] [INFO] basehttp : "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[2016-11-26 23:36:35,381] [INFO] basehttp : "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[2016-11-26 23:36:35,381] [INFO] basehttp : "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[2016-11-26 23:36:37,825] [INFO] basehttp : "GET /admin/announcement/announcement/ HTTP/1.1" 200 7144
+[2016-11-26 23:36:40,174] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:36:42,897] [INFO] basehttp : "GET /admin/forum/category/ HTTP/1.1" 200 5209
+[2016-11-26 23:36:43,076] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:36:45,880] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:36:47,493] [INFO] basehttp : "GET /admin/forum/question/ HTTP/1.1" 200 7273
+[2016-11-26 23:36:47,650] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:41:30,957] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:41:33,155] [INFO] basehttp : "GET /admin/forum/category/ HTTP/1.1" 200 5209
+[2016-11-26 23:41:33,302] [INFO] basehttp : "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2016-11-26 23:41:33,305] [INFO] basehttp : "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2016-11-26 23:41:33,355] [INFO] basehttp : "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2016-11-26 23:41:33,368] [INFO] basehttp : "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2016-11-26 23:41:33,368] [INFO] basehttp : "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2016-11-26 23:41:33,375] [INFO] basehttp : "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2016-11-26 23:41:33,375] [INFO] basehttp : "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2016-11-26 23:41:33,405] [INFO] basehttp : "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2016-11-26 23:41:33,410] [INFO] basehttp : "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2016-11-26 23:41:33,420] [INFO] basehttp : "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2016-11-26 23:41:33,424] [INFO] basehttp : "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2016-11-26 23:41:33,430] [INFO] basehttp : "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[2016-11-26 23:41:33,440] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:41:33,595] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2016-11-26 23:41:33,599] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2016-11-26 23:41:33,612] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2016-11-26 23:41:33,615] [INFO] basehttp : "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2016-11-26 23:41:35,448] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:41:51,305] [INFO] basehttp : "GET /admin/forum/question/ HTTP/1.1" 200 7273
+[2016-11-26 23:41:51,535] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:41:55,032] [INFO] basehttp : "GET /admin/forum/question/12/change/ HTTP/1.1" 200 10224
+[2016-11-26 23:41:55,213] [INFO] basehttp : "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[2016-11-26 23:41:55,267] [INFO] basehttp : "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2016-11-26 23:41:55,279] [INFO] basehttp : "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[2016-11-26 23:41:55,293] [INFO] basehttp : "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[2016-11-26 23:41:55,325] [INFO] basehttp : "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[2016-11-26 23:41:55,342] [INFO] basehttp : "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2016-11-26 23:41:55,375] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:41:58,322] [INFO] basehttp : "GET /static/ueditor/ueditor.config.js HTTP/1.1" 200 20239
+[2016-11-26 23:41:58,440] [INFO] basehttp : "GET /static/ueditor/ueditor.all.min.js HTTP/1.1" 200 368515
+[2016-11-26 23:41:58,687] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum%2Fquestion%2Fimage%2F&filePathFormat=forum%2Fquestion%2Ffiles%2F&action=config&&noCache=1480174918665 HTTP/1.1" 200 2171
+[2016-11-26 23:41:58,703] [INFO] basehttp : "GET /static/ueditor/themes/default/css/ueditor.css HTTP/1.1" 200 45662
+[2016-11-26 23:41:58,704] [INFO] basehttp : "GET /static/ueditor/lang/zh-cn/zh-cn.js HTTP/1.1" 200 30020
+[2016-11-26 23:41:59,684] [INFO] basehttp : "GET /static/ueditor/themes/default/images/icons.png HTTP/1.1" 200 19694
+[2016-11-26 23:41:59,701] [INFO] basehttp : "GET /static/ueditor/themes/default/images/charts.png HTTP/1.1" 200 518
+[2016-11-26 23:41:59,727] [INFO] basehttp : "GET /static/ueditor/themes/default/images/scale.png HTTP/1.1" 200 167
+[2016-11-26 23:41:59,743] [INFO] basehttp : "GET /static/ueditor/themes/iframe.css HTTP/1.1" 200 91
+[2016-11-26 23:42:00,061] [INFO] basehttp : "GET /static/ueditor/third-party/codemirror/codemirror.css HTTP/1.1" 200 2992
+[2016-11-26 23:42:00,086] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.js HTTP/1.1" 200 44471
+[2016-11-26 23:42:00,091] [INFO] basehttp : "GET /static/ueditor/third-party/codemirror/codemirror.js HTTP/1.1" 200 162186
+[2016-11-26 23:42:02,055] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480174920170 HTTP/1.1" 200 3933
+[2016-11-26 23:42:02,276] [INFO] basehttp : "GET /admin/forum/question/ HTTP/1.1" 200 7273
+[2016-11-26 23:42:08,086] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:42:08,220] [INFO] basehttp : "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2016-11-26 23:42:10,434] [INFO] basehttp : "GET /admin/forum/question/ HTTP/1.1" 200 7273
+[2016-11-26 23:42:10,575] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:42:30,410] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:42:32,628] [INFO] basehttp : "GET /admin/forum/category/ HTTP/1.1" 200 5209
+[2016-11-26 23:42:32,799] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:42:39,413] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:42:41,782] [INFO] basehttp : "GET /admin/forum/question/ HTTP/1.1" 200 7273
+[2016-11-26 23:42:41,967] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:42:53,150] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:42:55,654] [INFO] basehttp : "GET /admin/auth/user/ HTTP/1.1" 200 13686
+[2016-11-26 23:42:55,812] [INFO] basehttp : "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+[2016-11-26 23:42:55,825] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:42:55,835] [INFO] basehttp : "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[2016-11-26 23:42:55,933] [INFO] basehttp : "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[2016-11-26 23:43:40,483] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:43:42,750] [INFO] basehttp : "GET /admin/auth/group/ HTTP/1.1" 200 3363
+[2016-11-26 23:43:42,934] [INFO] basehttp : "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2016-11-26 23:43:42,951] [INFO] basehttp : "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2016-11-26 23:43:42,990] [INFO] basehttp : "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2016-11-26 23:43:42,996] [INFO] basehttp : "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2016-11-26 23:43:43,000] [INFO] basehttp : "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2016-11-26 23:43:43,005] [INFO] basehttp : "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2016-11-26 23:43:43,023] [INFO] basehttp : "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2016-11-26 23:43:43,046] [INFO] basehttp : "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2016-11-26 23:43:43,053] [INFO] basehttp : "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2016-11-26 23:43:43,059] [INFO] basehttp : "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2016-11-26 23:43:43,071] [INFO] basehttp : "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2016-11-26 23:43:43,076] [INFO] basehttp : "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[2016-11-26 23:43:43,105] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:43:43,232] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2016-11-26 23:43:43,243] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2016-11-26 23:43:43,249] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2016-11-26 23:43:43,257] [INFO] basehttp : "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2016-11-26 23:43:44,957] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:44:24,391] [INFO] basehttp : "GET /admin/auth/user/ HTTP/1.1" 200 13686
+[2016-11-26 23:44:24,578] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:44:36,683] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:44:38,637] [INFO] basehttp : "GET /admin/auth/group/ HTTP/1.1" 200 3363
+[2016-11-26 23:44:38,829] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:44:40,638] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:44:43,128] [INFO] basehttp : "GET /admin/forum/category/ HTTP/1.1" 200 5209
+[2016-11-26 23:44:43,303] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:44:45,430] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:44:47,197] [INFO] basehttp : "GET /admin/forum/question/ HTTP/1.1" 200 7273
+[2016-11-26 23:44:47,407] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:44:49,522] [INFO] basehttp : "GET /admin/forum/question/10/change/ HTTP/1.1" 200 10131
+[2016-11-26 23:44:49,720] [INFO] basehttp : "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[2016-11-26 23:44:49,780] [INFO] basehttp : "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2016-11-26 23:44:49,780] [INFO] basehttp : "GET /static/ueditor/ueditor.config.js HTTP/1.1" 304 0
+[2016-11-26 23:44:49,786] [INFO] basehttp : "GET /static/ueditor/ueditor.all.min.js HTTP/1.1" 304 0
+[2016-11-26 23:44:49,805] [INFO] basehttp : "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[2016-11-26 23:44:49,808] [INFO] basehttp : "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[2016-11-26 23:44:49,835] [INFO] basehttp : "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[2016-11-26 23:44:49,846] [INFO] basehttp : "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2016-11-26 23:44:49,855] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:44:50,229] [INFO] basehttp : "GET /static/ueditor/lang/zh-cn/zh-cn.js HTTP/1.1" 304 0
+[2016-11-26 23:44:50,230] [INFO] basehttp : "GET /static/ueditor/themes/default/css/ueditor.css HTTP/1.1" 304 0
+[2016-11-26 23:44:50,246] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum%2Fquestion%2Fimage%2F&filePathFormat=forum%2Fquestion%2Ffiles%2F&action=config&&noCache=1480175090222 HTTP/1.1" 200 2171
+[2016-11-26 23:44:50,585] [INFO] basehttp : "GET /static/ueditor/themes/iframe.css HTTP/1.1" 304 0
+[2016-11-26 23:44:50,773] [INFO] basehttp : "GET /static/ueditor/third-party/codemirror/codemirror.css HTTP/1.1" 304 0
+[2016-11-26 23:44:50,779] [INFO] basehttp : "GET /static/ueditor/third-party/codemirror/codemirror.js HTTP/1.1" 304 0
+[2016-11-26 23:44:50,812] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.js HTTP/1.1" 304 0
+[2016-11-26 23:44:52,095] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480175090900 HTTP/1.1" 200 3933
+[2016-11-26 23:44:55,098] [INFO] basehttp : "GET /admin/forum/question/ HTTP/1.1" 200 7273
+[2016-11-26 23:44:56,417] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-26 23:44:58,063] [INFO] basehttp : "GET /admin/auth/user/ HTTP/1.1" 200 13686
+[2016-11-26 23:44:58,290] [INFO] basehttp : "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+[2016-11-26 23:44:58,292] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:44:58,311] [INFO] basehttp : "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[2016-11-26 23:44:58,421] [INFO] basehttp : "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[2016-11-26 23:45:24,915] [INFO] basehttp : "GET /admin/auth/user/7/change/ HTTP/1.1" 200 19502
+[2016-11-26 23:45:25,078] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:45:25,092] [INFO] basehttp : "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+[2016-11-26 23:45:25,109] [INFO] basehttp : "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+[2016-11-26 23:45:25,122] [INFO] basehttp : "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[2016-11-26 23:45:25,122] [INFO] basehttp : "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[2016-11-26 23:45:25,124] [INFO] basehttp : "GET /static/admin/js/inlines.js HTTP/1.1" 304 0
+[2016-11-26 23:45:25,737] [INFO] basehttp : "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+[2016-11-26 23:45:25,742] [INFO] basehttp : "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+[2016-11-26 23:45:25,750] [INFO] basehttp : "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+[2016-11-26 23:45:25,829] [INFO] basehttp : "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[2016-11-26 23:45:25,832] [INFO] basehttp : "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[2016-11-26 23:46:06,999] [INFO] basehttp : "GET /admin/auth/user/ HTTP/1.1" 200 13686
+[2016-11-26 23:46:11,927] [INFO] basehttp : "GET /admin/auth/user/5/change/ HTTP/1.1" 200 19551
+[2016-11-26 23:46:12,101] [INFO] basehttp : "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2016-11-26 23:46:12,148] [INFO] basehttp : "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2016-11-26 23:46:12,157] [INFO] basehttp : "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2016-11-26 23:46:12,167] [INFO] basehttp : "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2016-11-26 23:46:12,180] [INFO] basehttp : "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2016-11-26 23:46:12,194] [INFO] basehttp : "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2016-11-26 23:46:12,198] [INFO] basehttp : "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2016-11-26 23:46:12,204] [INFO] basehttp : "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2016-11-26 23:46:12,209] [INFO] basehttp : "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2016-11-26 23:46:12,220] [INFO] basehttp : "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2016-11-26 23:46:12,223] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7758
+[2016-11-26 23:46:12,319] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2016-11-26 23:46:12,325] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2016-11-26 23:46:12,336] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2016-11-26 23:46:12,480] [INFO] basehttp : "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[2016-11-26 23:46:23,216] [INFO] basehttp : "GET /admin/auth/user/ HTTP/1.1" 200 13686
+[2016-11-26 23:46:24,687] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-27 08:16:46,786] [INFO] basehttp : "GET / HTTP/1.1" 200 16819
+[2016-11-27 08:16:47,329] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
+[2016-11-27 08:16:47,331] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2016-11-27 08:16:47,364] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
+[2016-11-27 08:16:47,364] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
+[2016-11-27 08:16:47,365] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[2016-11-27 08:16:47,365] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[2016-11-27 08:16:47,424] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 08:16:47,828] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+[2016-11-27 08:16:47,857] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 08:16:49,953] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 200 441642
+[2016-11-27 08:16:50,002] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
+[2016-11-27 08:16:57,628] [INFO] basehttp : "GET /forum/question/add/ HTTP/1.1" 200 12649
+[2016-11-27 08:16:58,075] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 08:16:58,088] [INFO] basehttp : "GET /static/ueditor/ueditor.config.js HTTP/1.1" 304 0
+[2016-11-27 08:16:58,096] [INFO] basehttp : "GET /static/ueditor/ueditor.all.min.js HTTP/1.1" 304 0
+[2016-11-27 08:16:58,338] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 08:16:58,392] [INFO] basehttp : "GET /static/ueditor/lang/zh-cn/zh-cn.js HTTP/1.1" 304 0
+[2016-11-27 08:16:58,411] [INFO] basehttp : "GET /static/ueditor/themes/default/css/ueditor.css HTTP/1.1" 304 0
+[2016-11-27 08:16:58,473] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480205818404 HTTP/1.1" 200 2171
+[2016-11-27 08:16:58,809] [INFO] basehttp : "GET /static/ueditor/themes/iframe.css HTTP/1.1" 304 0
+[2016-11-27 08:16:58,842] [INFO] basehttp : "GET /static/ueditor/themes/default/images/scale.png HTTP/1.1" 304 0
+[2016-11-27 08:16:58,842] [INFO] basehttp : "GET /static/ueditor/themes/default/images/icons.png HTTP/1.1" 304 0
+[2016-11-27 08:16:58,842] [INFO] basehttp : "GET /static/ueditor/themes/default/images/charts.png HTTP/1.1" 304 0
+[2016-11-27 08:16:59,102] [INFO] basehttp : "GET /static/ueditor/third-party/codemirror/codemirror.js HTTP/1.1" 304 0
+[2016-11-27 08:16:59,111] [INFO] basehttp : "GET /static/ueditor/third-party/codemirror/codemirror.css HTTP/1.1" 304 0
+[2016-11-27 08:16:59,148] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.js HTTP/1.1" 304 0
+[2016-11-27 08:17:00,440] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480205819251 HTTP/1.1" 200 3933
+[2016-11-27 08:19:23,201] [INFO] basehttp : "GET /forum/question/add/ HTTP/1.1" 200 12928
+[2016-11-27 08:19:23,440] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2016-11-27 08:19:23,451] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
+[2016-11-27 08:19:23,453] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[2016-11-27 08:19:23,457] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
+[2016-11-27 08:19:23,467] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
+[2016-11-27 08:19:23,470] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[2016-11-27 08:19:23,487] [INFO] basehttp : "GET /static/ueditor/ueditor.config.js HTTP/1.1" 304 0
+[2016-11-27 08:19:23,497] [INFO] basehttp : "GET /static/ueditor/ueditor.all.min.js HTTP/1.1" 304 0
+[2016-11-27 08:19:23,505] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
+[2016-11-27 08:19:23,523] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 08:19:23,851] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+[2016-11-27 08:19:23,901] [INFO] basehttp : "GET /static/ueditor/lang/zh-cn/zh-cn.js HTTP/1.1" 304 0
+[2016-11-27 08:19:23,907] [INFO] basehttp : "GET /static/ueditor/themes/default/css/ueditor.css HTTP/1.1" 304 0
+[2016-11-27 08:19:23,936] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480205963912 HTTP/1.1" 200 2171
+[2016-11-27 08:19:24,331] [INFO] basehttp : "GET /static/ueditor/themes/iframe.css HTTP/1.1" 304 0
+[2016-11-27 08:19:26,783] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480205964674 HTTP/1.1" 200 3933
+[2016-11-27 08:20:37,197] [INFO] basehttp : "GET /forum/question/add/ HTTP/1.1" 200 12649
+[2016-11-27 08:20:37,490] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2016-11-27 08:20:37,503] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[2016-11-27 08:20:37,515] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
+[2016-11-27 08:20:37,515] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
+[2016-11-27 08:20:37,530] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[2016-11-27 08:20:37,532] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
+[2016-11-27 08:20:37,548] [INFO] basehttp : "GET /static/ueditor/ueditor.config.js HTTP/1.1" 304 0
+[2016-11-27 08:20:37,551] [INFO] basehttp : "GET /static/ueditor/ueditor.all.min.js HTTP/1.1" 304 0
+[2016-11-27 08:20:37,559] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
+[2016-11-27 08:20:37,584] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 08:20:37,776] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+[2016-11-27 08:20:37,855] [INFO] basehttp : "GET /static/ueditor/lang/zh-cn/zh-cn.js HTTP/1.1" 304 0
+[2016-11-27 08:20:37,861] [INFO] basehttp : "GET /static/ueditor/themes/default/css/ueditor.css HTTP/1.1" 304 0
+[2016-11-27 08:20:37,907] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480206037873 HTTP/1.1" 200 2171
+[2016-11-27 08:20:38,240] [INFO] basehttp : "GET /static/ueditor/themes/iframe.css HTTP/1.1" 304 0
+[2016-11-27 08:20:40,496] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480206038554 HTTP/1.1" 200 3933
+[2016-11-27 08:21:45,552] [ERROR] exception : Internal Server Error: /forum/question/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\contrib\auth\mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\edit.py", line 213, in get
+    return super(BaseCreateView, self).get(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\edit.py", line 174, in get
+    return self.render_to_response(self.get_context_data())
+  File "E:\python\Lib\site-packages\django\bin\Q-A-online\forum\views.py", line 83, in get_context_data
+    context['teacher_list'] = MyUser.objects.filter.order_by('nickname')
+AttributeError: 'function' object has no attribute 'order_by'
+[2016-11-27 08:21:45,552] [ERROR] exception : Internal Server Error: /forum/question/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\contrib\auth\mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\edit.py", line 213, in get
+    return super(BaseCreateView, self).get(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\edit.py", line 174, in get
+    return self.render_to_response(self.get_context_data())
+  File "E:\python\Lib\site-packages\django\bin\Q-A-online\forum\views.py", line 83, in get_context_data
+    context['teacher_list'] = MyUser.objects.filter.order_by('nickname')
+AttributeError: 'function' object has no attribute 'order_by'
+[2016-11-27 08:21:45,953] [ERROR] basehttp : "GET /forum/question/add/ HTTP/1.1" 500 91500
+[2016-11-27 08:25:41,170] [INFO] basehttp : "GET / HTTP/1.1" 200 16819
+[2016-11-27 08:25:41,338] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2016-11-27 08:25:41,338] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
+[2016-11-27 08:25:41,342] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[2016-11-27 08:25:41,348] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
+[2016-11-27 08:25:41,354] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[2016-11-27 08:25:41,364] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
+[2016-11-27 08:25:41,371] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
+[2016-11-27 08:25:41,391] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 08:25:41,480] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+[2016-11-27 08:25:44,884] [INFO] basehttp : "GET /forum/question/add/ HTTP/1.1" 200 14100
+[2016-11-27 08:25:45,119] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 08:25:45,763] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480206345729 HTTP/1.1" 200 2171
+[2016-11-27 08:25:48,924] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480206345902 HTTP/1.1" 200 3933
+[2016-11-27 08:27:16,476] [ERROR] exception : Internal Server Error: /forum/question/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\contrib\auth\mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\edit.py", line 213, in get
+    return super(BaseCreateView, self).get(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\edit.py", line 174, in get
+    return self.render_to_response(self.get_context_data())
+  File "E:\python\Lib\site-packages\django\bin\Q-A-online\forum\views.py", line 83, in get_context_data
+    context['teacher_list'] = MyUser.objects.all.filter(identity='T').order_by('nickname')
+AttributeError: 'function' object has no attribute 'filter'
+[2016-11-27 08:27:16,476] [ERROR] exception : Internal Server Error: /forum/question/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\contrib\auth\mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\edit.py", line 213, in get
+    return super(BaseCreateView, self).get(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\edit.py", line 174, in get
+    return self.render_to_response(self.get_context_data())
+  File "E:\python\Lib\site-packages\django\bin\Q-A-online\forum\views.py", line 83, in get_context_data
+    context['teacher_list'] = MyUser.objects.all.filter(identity='T').order_by('nickname')
+AttributeError: 'function' object has no attribute 'filter'
+[2016-11-27 08:27:17,167] [ERROR] basehttp : "GET /forum/question/add/ HTTP/1.1" 500 91540
+[2016-11-27 13:59:14,540] [INFO] basehttp : "GET / HTTP/1.1" 200 16819
+[2016-11-27 13:59:15,555] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2016-11-27 13:59:15,578] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
+[2016-11-27 13:59:15,615] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[2016-11-27 13:59:15,617] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
+[2016-11-27 13:59:15,617] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
+[2016-11-27 13:59:15,617] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[2016-11-27 13:59:15,696] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 13:59:15,904] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+[2016-11-27 13:59:15,904] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
+[2016-11-27 13:59:17,944] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3016
+[2016-11-27 13:59:21,704] [INFO] basehttp : "GET /authentication/user/logout/ HTTP/1.1" 302 0
+[2016-11-27 13:59:21,903] [INFO] basehttp : "GET / HTTP/1.1" 200 15750
+[2016-11-27 13:59:22,367] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 13:59:23,933] [INFO] basehttp : "GET /authentication/user/login/ HTTP/1.1" 200 8680
+[2016-11-27 13:59:24,148] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 13:59:33,128] [INFO] basehttp : "POST /authentication/user/login/ HTTP/1.1" 200 5560
+[2016-11-27 13:59:33,372] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 13:59:38,757] [INFO] basehttp : "GET /authentication/user/login/ HTTP/1.1" 200 8680
+[2016-11-27 13:59:39,078] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 13:59:50,369] [INFO] basehttp : "POST /authentication/user/login/ HTTP/1.1" 200 5560
+[2016-11-27 13:59:50,584] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 13:59:54,848] [INFO] basehttp : "GET /authentication/user/login/ HTTP/1.1" 200 8680
+[2016-11-27 13:59:55,151] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:00:07,223] [INFO] basehttp : "POST /authentication/user/login/ HTTP/1.1" 200 5560
+[2016-11-27 14:00:07,447] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:00:13,282] [INFO] basehttp : "GET /authentication/user/login/ HTTP/1.1" 200 8680
+[2016-11-27 14:00:13,536] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:00:28,125] [INFO] basehttp : "POST /authentication/user/login/ HTTP/1.1" 302 0
+[2016-11-27 14:00:28,388] [INFO] basehttp : "GET / HTTP/1.1" 200 16819
+[2016-11-27 14:00:28,635] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:01:49,890] [INFO] basehttp : "GET /forum/question/add/ HTTP/1.1" 200 12649
+[2016-11-27 14:01:50,118] [INFO] basehttp : "GET /static/ueditor/ueditor.config.js HTTP/1.1" 304 0
+[2016-11-27 14:01:50,125] [INFO] basehttp : "GET /static/ueditor/ueditor.all.min.js HTTP/1.1" 304 0
+[2016-11-27 14:01:50,142] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:01:50,444] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:01:50,558] [INFO] basehttp : "GET /static/ueditor/lang/zh-cn/zh-cn.js HTTP/1.1" 304 0
+[2016-11-27 14:01:50,572] [INFO] basehttp : "GET /static/ueditor/themes/default/css/ueditor.css HTTP/1.1" 304 0
+[2016-11-27 14:01:50,599] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480226510544 HTTP/1.1" 200 2171
+[2016-11-27 14:01:50,960] [INFO] basehttp : "GET /static/ueditor/themes/default/images/charts.png HTTP/1.1" 304 0
+[2016-11-27 14:01:50,960] [INFO] basehttp : "GET /static/ueditor/themes/default/images/scale.png HTTP/1.1" 304 0
+[2016-11-27 14:01:50,960] [INFO] basehttp : "GET /static/ueditor/themes/default/images/icons.png HTTP/1.1" 304 0
+[2016-11-27 14:01:50,973] [INFO] basehttp : "GET /static/ueditor/themes/iframe.css HTTP/1.1" 304 0
+[2016-11-27 14:01:51,229] [INFO] basehttp : "GET /static/ueditor/third-party/codemirror/codemirror.css HTTP/1.1" 304 0
+[2016-11-27 14:01:51,230] [INFO] basehttp : "GET /static/ueditor/third-party/codemirror/codemirror.js HTTP/1.1" 304 0
+[2016-11-27 14:01:51,305] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.js HTTP/1.1" 304 0
+[2016-11-27 14:01:55,022] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480226511359 HTTP/1.1" 200 3933
+[2016-11-27 14:02:13,404] [INFO] basehttp : "POST /forum/question/add/ HTTP/1.1" 200 12649
+[2016-11-27 14:02:13,881] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:02:14,262] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:02:14,744] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480226534714 HTTP/1.1" 200 2171
+[2016-11-27 14:02:15,015] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480226534924 HTTP/1.1" 200 3933
+[2016-11-27 14:02:27,724] [INFO] basehttp : "POST /forum/question/add/ HTTP/1.1" 200 12649
+[2016-11-27 14:02:28,283] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:02:28,773] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480226548755 HTTP/1.1" 200 2171
+[2016-11-27 14:02:29,015] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480226548922 HTTP/1.1" 200 3933
+[2016-11-27 14:02:31,717] [INFO] basehttp : "GET / HTTP/1.1" 200 16819
+[2016-11-27 14:02:32,056] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:02:38,397] [INFO] basehttp : "GET /forum/question/add/ HTTP/1.1" 200 12649
+[2016-11-27 14:02:38,627] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:02:39,007] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480226558988 HTTP/1.1" 200 2171
+[2016-11-27 14:02:39,311] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480226559190 HTTP/1.1" 200 3933
+[2016-11-27 14:02:51,757] [INFO] basehttp : "POST /forum/question/add/ HTTP/1.1" 200 12649
+[2016-11-27 14:02:52,098] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:02:52,476] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480226572447 HTTP/1.1" 200 2171
+[2016-11-27 14:02:52,736] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480226572643 HTTP/1.1" 200 3933
+[2016-11-27 14:02:54,302] [INFO] basehttp : "GET / HTTP/1.1" 200 16819
+[2016-11-27 14:02:54,594] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:03:04,993] [INFO] basehttp : "GET /forum/question/add/ HTTP/1.1" 200 12649
+[2016-11-27 14:03:05,239] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:03:05,618] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480226585602 HTTP/1.1" 200 2171
+[2016-11-27 14:03:05,885] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480226585776 HTTP/1.1" 200 3933
+[2016-11-27 14:03:31,976] [INFO] basehttp : "POST /forum/question/add/ HTTP/1.1" 302 0
+[2016-11-27 14:03:32,213] [INFO] basehttp : "GET /forum/question/13/detail/ HTTP/1.1" 200 10874
+[2016-11-27 14:03:32,417] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:03:39,361] [INFO] basehttp : "GET / HTTP/1.1" 200 17929
+[2016-11-27 14:03:39,542] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:03:44,275] [INFO] basehttp : "GET /forum/question/13/detail/ HTTP/1.1" 200 10874
+[2016-11-27 14:03:44,503] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:03:56,595] [INFO] basehttp : "GET /dashboard/ HTTP/1.1" 200 3672
+[2016-11-27 14:03:56,772] [INFO] basehttp : "GET /static/css/dashboard.css HTTP/1.1" 200 1777
+[2016-11-27 14:03:56,789] [INFO] basehttp : "GET /static/js/jquery.form.js HTTP/1.1" 200 45169
+[2016-11-27 14:04:01,474] [INFO] basehttp : "GET /admin HTTP/1.1" 301 0
+[2016-11-27 14:04:01,730] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 5475
+[2016-11-27 14:04:01,888] [INFO] basehttp : "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2016-11-27 14:04:01,888] [INFO] basehttp : "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2016-11-27 14:04:02,095] [INFO] basehttp : "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2016-11-27 14:04:02,121] [INFO] basehttp : "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2016-11-27 14:04:02,150] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2016-11-27 14:04:02,157] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2016-11-27 14:04:02,158] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2016-11-27 14:04:02,160] [INFO] basehttp : "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2016-11-27 14:04:07,571] [INFO] basehttp : "GET /authentication/user/list/ HTTP/1.1" 200 11290
+[2016-11-27 14:04:18,229] [INFO] basehttp : "GET /announcement/add/ HTTP/1.1" 200 5325
+[2016-11-27 14:04:19,589] [INFO] basehttp : "GET /announcement/list/ HTTP/1.1" 200 5743
+[2016-11-27 14:04:22,815] [INFO] basehttp : "GET /forum/category/list/ HTTP/1.1" 200 6874
+[2016-11-27 14:04:24,868] [INFO] basehttp : "GET /forum/category/add/ HTTP/1.1" 200 5189
+[2016-11-27 14:04:26,915] [INFO] basehttp : "GET /forum/category/list/ HTTP/1.1" 200 6874
+[2016-11-27 14:04:28,188] [INFO] basehttp : "GET /forum/question/list/ HTTP/1.1" 200 8648
+[2016-11-27 14:04:30,575] [INFO] basehttp : "POST /forum/question/13/delete/ HTTP/1.1" 200 20
+[2016-11-27 14:04:38,069] [INFO] basehttp : "GET /dashboard/ HTTP/1.1" 200 3672
+[2016-11-27 14:04:41,210] [INFO] basehttp : "GET / HTTP/1.1" 200 16819
+[2016-11-27 14:04:41,358] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:07:08,802] [INFO] basehttp : "GET / HTTP/1.1" 200 16819
+[2016-11-27 14:07:09,029] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2016-11-27 14:07:09,029] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
+[2016-11-27 14:07:09,032] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
+[2016-11-27 14:07:09,043] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[2016-11-27 14:07:09,052] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
+[2016-11-27 14:07:09,055] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[2016-11-27 14:07:09,079] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
+[2016-11-27 14:07:09,108] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:07:09,190] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+[2016-11-27 14:07:10,654] [INFO] basehttp : "GET /forum/question/add/ HTTP/1.1" 200 12649
+[2016-11-27 14:07:10,901] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:07:11,528] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480226831507 HTTP/1.1" 200 2171
+[2016-11-27 14:07:15,160] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480226831705 HTTP/1.1" 200 3933
+[2016-11-27 14:07:19,739] [INFO] basehttp : "POST /forum/question/add/ HTTP/1.1" 200 12649
+[2016-11-27 14:07:20,154] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:07:20,562] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480226840538 HTTP/1.1" 200 2171
+[2016-11-27 14:07:20,831] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480226840720 HTTP/1.1" 200 3933
+[2016-11-27 14:07:42,607] [INFO] basehttp : "GET / HTTP/1.1" 200 16819
+[2016-11-27 14:07:43,134] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:14:49,278] [INFO] basehttp : "GET / HTTP/1.1" 200 16819
+[2016-11-27 14:14:49,569] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2016-11-27 14:14:49,576] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[2016-11-27 14:14:49,576] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
+[2016-11-27 14:14:49,581] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
+[2016-11-27 14:14:49,586] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
+[2016-11-27 14:14:49,589] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[2016-11-27 14:14:49,619] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
+[2016-11-27 14:14:49,635] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:14:49,759] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+[2016-11-27 14:14:51,381] [INFO] basehttp : "GET /forum/question/add/ HTTP/1.1" 200 12649
+[2016-11-27 14:14:51,607] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:14:52,194] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480227292176 HTTP/1.1" 200 2171
+[2016-11-27 14:14:55,976] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480227292373 HTTP/1.1" 200 3933
+[2016-11-27 14:15:23,950] [INFO] basehttp : "POST /forum/question/add/ HTTP/1.1" 302 0
+[2016-11-27 14:15:24,214] [INFO] basehttp : "GET /forum/question/14/detail/ HTTP/1.1" 200 10886
+[2016-11-27 14:15:24,573] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:15:31,299] [INFO] basehttp : "GET / HTTP/1.1" 200 17929
+[2016-11-27 14:15:31,553] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:23:37,293] [INFO] basehttp : "GET / HTTP/1.1" 200 17929
+[2016-11-27 14:23:37,536] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2016-11-27 14:23:37,540] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
+[2016-11-27 14:23:37,556] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
+[2016-11-27 14:23:37,552] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[2016-11-27 14:23:37,561] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
+[2016-11-27 14:23:37,565] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[2016-11-27 14:23:37,585] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
+[2016-11-27 14:23:37,602] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:23:37,721] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+[2016-11-27 14:23:38,703] [ERROR] exception : Internal Server Error: /forum/question/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\contrib\auth\mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\edit.py", line 213, in get
+    return super(BaseCreateView, self).get(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\edit.py", line 174, in get
+    return self.render_to_response(self.get_context_data())
+  File "E:\python\Lib\site-packages\django\bin\Q-A-online\forum\views.py", line 83, in get_context_data
+    context['teacher_list'] = MyUser.filter(identity='T').order_by('nickname')
+AttributeError: type object 'MyUser' has no attribute 'filter'
+[2016-11-27 14:23:38,703] [ERROR] exception : Internal Server Error: /forum/question/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\contrib\auth\mixins.py", line 56, in dispatch
+    return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\edit.py", line 213, in get
+    return super(BaseCreateView, self).get(request, *args, **kwargs)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\views\generic\edit.py", line 174, in get
+    return self.render_to_response(self.get_context_data())
+  File "E:\python\Lib\site-packages\django\bin\Q-A-online\forum\views.py", line 83, in get_context_data
+    context['teacher_list'] = MyUser.filter(identity='T').order_by('nickname')
+AttributeError: type object 'MyUser' has no attribute 'filter'
+[2016-11-27 14:23:39,109] [ERROR] basehttp : "GET /forum/question/add/ HTTP/1.1" 500 91559
+[2016-11-27 14:24:20,987] [ERROR] exception : Internal Server Error: /forum/question/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 215, in _get_response
+    response = response.render()
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\response.py", line 109, in render
+    self.content = self.rendered_content
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\response.py", line 86, in rendered_content
+    content = template.render(context, self._request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\defaulttags.py", line 165, in render
+    values = list(values)
+TypeError: 'Manager' object is not iterable
+[2016-11-27 14:24:20,987] [ERROR] exception : Internal Server Error: /forum/question/add/
+Traceback (most recent call last):
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\core\handlers\base.py", line 215, in _get_response
+    response = response.render()
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\response.py", line 109, in render
+    self.content = self.rendered_content
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\response.py", line 86, in rendered_content
+    content = template.render(context, self._request)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\python\lib\site-packages\django-1.10.3-py2.7.egg\django\template\defaulttags.py", line 165, in render
+    values = list(values)
+TypeError: 'Manager' object is not iterable
+[2016-11-27 14:24:21,990] [ERROR] basehttp : "GET /forum/question/add/ HTTP/1.1" 500 183946
+[2016-11-27 14:25:05,868] [INFO] basehttp : "GET /forum/question/add/ HTTP/1.1" 200 14100
+[2016-11-27 14:25:06,134] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2016-11-27 14:25:06,155] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
+[2016-11-27 14:25:06,180] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[2016-11-27 14:25:06,187] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
+[2016-11-27 14:25:06,194] [INFO] basehttp : "GET /static/ueditor/ueditor.config.js HTTP/1.1" 304 0
+[2016-11-27 14:25:06,197] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[2016-11-27 14:25:06,206] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
+[2016-11-27 14:25:06,210] [INFO] basehttp : "GET /static/ueditor/ueditor.all.min.js HTTP/1.1" 304 0
+[2016-11-27 14:25:06,233] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
+[2016-11-27 14:25:06,249] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:25:06,346] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+[2016-11-27 14:25:06,400] [INFO] basehttp : "GET /static/ueditor/themes/default/css/ueditor.css HTTP/1.1" 304 0
+[2016-11-27 14:25:06,417] [INFO] basehttp : "GET /static/ueditor/lang/zh-cn/zh-cn.js HTTP/1.1" 304 0
+[2016-11-27 14:25:06,437] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480227906386 HTTP/1.1" 200 2171
+[2016-11-27 14:25:06,818] [INFO] basehttp : "GET /static/ueditor/themes/iframe.css HTTP/1.1" 304 0
+[2016-11-27 14:25:10,555] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480227907036 HTTP/1.1" 200 3933
+[2016-11-27 14:26:12,253] [INFO] basehttp : "GET /forum/question/add/ HTTP/1.1" 200 14100
+[2016-11-27 14:26:12,509] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2016-11-27 14:26:12,526] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
+[2016-11-27 14:26:12,536] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[2016-11-27 14:26:12,548] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
+[2016-11-27 14:26:12,549] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
+[2016-11-27 14:26:12,552] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[2016-11-27 14:26:12,566] [INFO] basehttp : "GET /static/ueditor/ueditor.config.js HTTP/1.1" 304 0
+[2016-11-27 14:26:12,581] [INFO] basehttp : "GET /static/ueditor/ueditor.all.min.js HTTP/1.1" 304 0
+[2016-11-27 14:26:12,585] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
+[2016-11-27 14:26:12,615] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:26:12,769] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+[2016-11-27 14:26:12,815] [INFO] basehttp : "GET /static/ueditor/lang/zh-cn/zh-cn.js HTTP/1.1" 304 0
+[2016-11-27 14:26:12,845] [INFO] basehttp : "GET /static/ueditor/themes/default/css/ueditor.css HTTP/1.1" 304 0
+[2016-11-27 14:26:12,848] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480227972812 HTTP/1.1" 200 2171
+[2016-11-27 14:26:13,177] [INFO] basehttp : "GET /static/ueditor/themes/iframe.css HTTP/1.1" 304 0
+[2016-11-27 14:26:15,480] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480227973453 HTTP/1.1" 200 3933
+[2016-11-27 14:26:25,030] [INFO] basehttp : "POST /forum/question/add/ HTTP/1.1" 200 14100
+[2016-11-27 14:26:25,407] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:26:25,890] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480227985869 HTTP/1.1" 200 2171
+[2016-11-27 14:26:26,180] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480227986035 HTTP/1.1" 200 3933
+[2016-11-27 14:26:36,940] [INFO] basehttp : "POST /forum/question/add/ HTTP/1.1" 200 14100
+[2016-11-27 14:26:37,134] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:26:37,812] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480227997745 HTTP/1.1" 200 2171
+[2016-11-27 14:26:38,003] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480227997869 HTTP/1.1" 200 3933
+[2016-11-27 14:26:47,790] [INFO] basehttp : "POST /forum/question/add/ HTTP/1.1" 302 0
+[2016-11-27 14:26:48,015] [INFO] basehttp : "GET /forum/question/15/detail/ HTTP/1.1" 200 10874
+[2016-11-27 14:26:48,293] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:42:51,747] [INFO] basehttp : "GET /forum/question/15/detail/ HTTP/1.1" 200 10874
+[2016-11-27 14:42:51,963] [INFO] basehttp : "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[2016-11-27 14:42:51,967] [INFO] basehttp : "GET /static/css/main.css HTTP/1.1" 304 0
+[2016-11-27 14:42:51,983] [INFO] basehttp : "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+[2016-11-27 14:42:51,996] [INFO] basehttp : "GET /static/js/jquery.cookie.js HTTP/1.1" 304 0
+[2016-11-27 14:42:52,000] [INFO] basehttp : "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[2016-11-27 14:42:52,000] [INFO] basehttp : "GET /static/js/utils.js HTTP/1.1" 304 0
+[2016-11-27 14:42:52,016] [INFO] basehttp : "GET /media/user/photo/2016/11/24/3CED.tmp.png HTTP/1.1" 304 0
+[2016-11-27 14:42:52,032] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:42:52,098] [INFO] basehttp : "GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+[2016-11-27 14:42:53,217] [INFO] basehttp : "GET /forum/question/add/ HTTP/1.1" 200 12242
+[2016-11-27 14:42:53,569] [WARNING] basehttp : "GET /static/image/logo1.png HTTP/1.1" 404 1759
+[2016-11-27 14:42:54,086] [INFO] basehttp : "GET /ueditor/controller/?imagePathFormat=forum/question/images/%25(datetime)s%25(rnd)s.%25(extname)s&filePathFormat=forum/question/files/%25(datetime)s%25(rnd)s.%25(extname)s&action=config&&noCache=1480228974049 HTTP/1.1" 200 2171
+[2016-11-27 14:42:57,388] [INFO] basehttp : "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1480228974347 HTTP/1.1" 200 3933
