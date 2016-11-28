@@ -1,0 +1,96 @@
+{% extends 'website/frontend/frontend_base.html' %}
+{% load staticfiles %}
+{% block title %}
+
+{% endblock %}
+
+{% block external_header %}
+
+{% endblock %}
+
+{% block left %}
+
+<div class="col-md-12 article">
+        <div class="col-md-12">
+<div class="col-md-4">
+                <div class="col-md-12 text-center">
+                    {% if theuser.photo %}
+                        <img src="{% url 'media' theuser.photo %}" class="img-circle" width="140" height="140">
+                    {% else %}
+                        {% if theuser.identity == 'T' %}
+               				 <img src="{% static 'image/default.png' %}" class="img-circle" width="140" height="140">
+						{% else %}
+							<img src="{% static 'image/default1.png' %}" class="img-circle" width="140" height="140">
+						{% endif %}
+                    {% endif %}
+                </div>
+                <div class="col-md-12 text-center">
+                    <h3 class="text-info">
+                        <a href="{% url 'personal-question' theuser.user.id %}">{{ theuser.nickname }}</a>
+                    </h3>
+                    <p>
+                        {% if theuser.identity == 'T' %}
+                            <span class="label label-danger">
+                                教师
+                            </span>
+                        {% else %}
+                            <span class="label label-info">
+                                学生
+                            </span>
+                        {% endif %}
+                    </p>
+                </div>
+				 </div>
+                <div class="col-md-4">
+                    <p>电子邮件:<br>{{ theuser.user.email }}</p>
+                    <p>加入时间:<br>{{ theuser.user.date_joined|date:"Y-m-d" }}</p>
+                    <p>最后登录:<p>{{ theuser.user.last_login|date:"Y-m-d" }}<p>{{ myuser.user.last_login|time:"H:i:s" }}</p>
+              
+            </div>
+			<div class="col-md-4">
+                  <br><br> <p> <a href="{% url 'personal-question' theuser.user.id %}" style="font-size:25px;">提问列表</a></p>
+				   <br>
+					<p><a href="{% url 'personal-answer' theuser.user.id %}"  style="font-size:25px;">回答列表</a></p>
+                    
+              
+            </div>
+			</div>
+			</div>
+    
+    <div class="col-md-12 col-xs-12 article">
+        <h3>提过的问题</h3>
+    </div>
+	{% if question_list %}
+        {% for question in question_list %}
+        <div class="col-md-12 col-xs-12 article">
+            <div class="col-md-12 col-xs-12">
+                <h3><a href="{% url 'question-detail' question.id %}">{{ question.title }}</a></h3>
+                <p><span aria-hidden="true"></span>{{ question.publish_time|date:"Y-m-d" }}&nbsp;{{ question.publish_time|time:"H:i" }}</p>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <p>作者：{{ question.author.myuser.nickname }}</p>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <p>回帖数：{{ question.answer_set.count }}</p>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <p>浏览次数：{{ question.show_times }}</p>
+            </div>
+            <div class="col-md-6 col-xs-6">
+                <a href="{% url 'category-question-list' question.category.id %}"><span class="label label-default"><span class="text-left"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span>&emsp;{{ question.category }}</span></span></a>
+            </div>
+            <div class="col-md-6 text-right col-xs-6">
+                <a role="button" class="btn btn-info btn-xs" href="{% url 'question-detail' question.id %}"><span class="glyphicon glyphicon-console" aria-hidden="true"></span>查看详情</a>
+            </div>
+        </div>
+  
+    {% endfor %}
+	{% else %}
+	<div class="col-md-12 col-xs-12 article">
+        <h3>暂无</h3>
+		 </div>
+	{% endif %}
+
+
+{% include 'utils/pagination.html' %}
+{% endblock %}

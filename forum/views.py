@@ -168,11 +168,31 @@ class QuestionDeleteView(UserPassesTestMixin, AjaxableResponseMixin, DeleteView)
 
 class PersonalQuestionListView(FrontMixin, ListView):
     paginate_by = 10
-    template_name = 'website/frontend/homepage.html'
+    template_name = 'forum/question_weight2.html'
     context_object_name = 'question_list'
 
     def get_queryset(self):
         return Question.objects.filter(author_id=self.kwargs['pk'])
+    def get_context_data(self, *args, **kwargs):
+        context = super(PersonalQuestionListView, self).get_context_data(**kwargs)
+        context['theuser']=MyUser.objects.get(pk=self.kwargs['pk'])
+        return context
+
+class PersonalAnswerListView(FrontMixin, ListView):
+    paginate_by = 10
+    template_name = 'forum/answer_weight.html'
+    context_object_name = 'question_asked_list'
+
+    def get_queryset(self):
+        answers = Answer.objects.filter(author_id=self.kwargs['pk'])
+        question_asked_list = list(set([item.question for item in answers]))
+        question_asked_list.reverse()
+        return  question_asked_list
+
+    def get_context_data(self, *args, **kwargs):
+        context = super(PersonalAnswerListView, self).get_context_data(**kwargs)
+        context['theuser']=MyUser.objects.get(pk=self.kwargs['pk'])
+        return context
 
 
 class QuestionSearchView(FrontMixin, ListView):

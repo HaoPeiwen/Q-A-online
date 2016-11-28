@@ -14,6 +14,7 @@ urlpatterns = [
     url('^question/list/$', views.QuestionListView.as_view(), name='question-list'),
     url('^question/(?P<pk>[0-9]+)/delete/$', views.QuestionDeleteView.as_view(), name='question-delete'),
     url('^question/user/(?P<pk>[0-9]+)/list/$', views.PersonalQuestionListView.as_view(), name='personal-question'),
+    url('^answer/user/(?P<pk>[0-9]+)/list/$', views.PersonalAnswerListView.as_view(), name='personal-answer'),
     url('^question/search/$', views.QuestionSearchView.as_view(), name='question-search'),
     url('^question/inviting/(?P<pk>[0-9]+)/list/$', views.PersonalInvitingListView.as_view(), name='personal-inviting')
 ]
