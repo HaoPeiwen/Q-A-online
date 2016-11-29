@@ -88,9 +88,8 @@ class UserPhotoChangeView(LoginRequiredMixin, FrontMixin, UpdateView):
     login_url = reverse_lazy('user-login')
     success_url = reverse_lazy('homepage')
     template_name = 'authentication/photo_change_form.html'
-    fields = ['photo']
+    fields = ['photo','invitable']
     model = MyUser
-
     def form_valid(self, form):
         if int(self.kwargs['pk']) != self.request.user.myuser.id:
             return self.response_error_page('权限错误')

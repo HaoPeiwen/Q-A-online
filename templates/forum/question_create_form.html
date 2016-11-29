@@ -37,7 +37,7 @@
                     <select name="inviting_person" id="inviting_person" class="form-control">
                         <option value="">无</option>
                         {% for teacher in teacher_list %}
-                            <option value="{{ teacher.id }}">{{ teacher.nickname }}</option>
+                            {% if teacher.invitable == '1' %} <option value="{{ teacher.id }}">{{ teacher.nickname }}{% endif %}</option>
                         {% endfor %}
                     </select>
                 </div>
