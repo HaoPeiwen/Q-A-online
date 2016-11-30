@@ -1,12 +1,19 @@
-<div class="col-md-12 article">
+
+<div class="col-md-12 article" style=" margin-top: 20px;">
+
     <form action="{% url 'question-search' %}" method="get">
+
         <div class="form-group col-md-10">
+        
             <div class="input-group">
+
               <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
               <input class="form-control" type="search" placeholder="搜索标题" name="keyword">
             </div>
           </div>
+
         <div class="col-md-2">
+
         <button type="submit" class="btn btn-default">搜索</button>
         </div>
     </form>
