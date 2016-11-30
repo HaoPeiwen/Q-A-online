@@ -141,6 +141,33 @@ class AnswerCreateView(LoginRequiredMixin, FrontMixin, CreateView):
         form.instance.author = self.request.user
         form.instance.question = Question.objects.get(pk=self.kwargs['pk'])
         return super(AnswerCreateView, self).form_valid(form)
+    
+class ReplyCreateView(LoginRequiredMixin, FrontMixin, CreateView):
+    model = Answer
+    template_name = 'forum/reply_create_form.html'
+    fields = ['content']
+    login_url = reverse_lazy('user-login')
+    
+    def get_context_data(self, *args, **kwargs):
+        context = super(ReplyCreateView, self).get_context_data(*args, **kwargs)
+        answer=Answer.objects.get(pk=self.kwargs['pk'])
+        context['answer'] = Answer.objects.get(pk=self.kwargs['pk'])
+        return context
+
+    def get_success_url(self):
+        answer=Answer.objects.get(pk=self.kwargs['pk'])
+        
+        return reverse('question-detail', kwargs={'pk': answer.question.pk})
+
+    def form_valid(self, form):
+        answer=Answer.objects.get(pk=self.kwargs['pk'])
+        question=answer.question
+        form.instance.author = self.request.user
+        form.instance.question = question
+        form.instance.reply_author=answer.author.myuser
+        
+        return super(ReplyCreateView, self).form_valid(form)
+
 
 
 class QuestionListView(UserPassesTestMixin, ListView):
@@ -211,3 +238,11 @@ class PersonalInvitingListView(FrontMixin, ListView):
 
     def get_queryset(self):
         return Question.objects.filter(inviting_person=MyUser.objects.get(pk=self.kwargs['pk']))
+
+class PersonalReplyListView(FrontMixin, ListView):
+    paginate_by = 10
+    template_name = 'forum/reply_weight.html'
+    context_object_name = 'reply_list'
+
+    def get_queryset(self):
+        return Answer.objects.filter(reply_author=MyUser.objects.get(pk=self.kwargs['pk'])).order_by('-publish_time')

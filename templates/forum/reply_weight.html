@@ -1,0 +1,81 @@
+{% extends 'website/frontend/frontend_base.html' %}
+{% load staticfiles %}
+{% block title %}
+你收到的回复
+{% endblock %}
+
+{% block external_header %}
+
+{% endblock %}
+
+{% block left %}
+
+{% for answer in reply_list %}
+
+                <div class="col-md-12 article">
+                    <div class="col-md-3">
+                        <div class="col-md-12 text-center">
+							
+                            {% if answer.author.myuser.photo %}
+						 			
+                        		<img src="{% url 'media' answer.author.myuser.photo %}" class="img-circle" width="140" height="140">
+                   		    {% else %}
+                       			 {% if answer.author.myuser.identity == 'T' %}
+               						 <img src="{% static 'image/default.png' %}" class="img-circle" width="140" height="140">
+								 {% else %}
+									 <img src="{% static 'image/default1.png' %}" class="img-circle" width="140" height="140">
+								 {% endif %}
+                  	    	{% endif %}
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <h3 class="text-info">
+                                <a href="{% url 'personal-question' answer.author.id %}">{{ answer.author.myuser.nickname }}</a>
+                            </h3>
+                            <p>
+                                {% if answer.author.myuser.identity == 'T' %}
+                                    <span class="label label-danger">
+                                        教师
+                                    </span>
+                                {% else %}
+                                    <span class="label label-info">
+                                        学生
+                                    </span>
+                                {% endif %}         
+                        </div>
+					<div class="col-md-12">
+                    <p>电子邮件:<br>{{ answer.author.myuser.user.email }}</p>
+                    <p>加入时间:<br>{{ answer.author.myuser.user.date_joined|date:"Y-m-d" }}</p>
+                    <p>最后登录:<p>{{ answer.author.myuser.user.last_login|date:"Y-m-d" }}<p>{{ answer.author.myuser.user.last_login|time:"H:i:s" }}</p>
+                    </div>
+                    </div>
+					<p>&emsp;&emsp;<small><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>{{ answer.publish_time|date:"Y-m-d" }}&emsp;{{ answer.publish_time|time:"H:i:s" }}</small></p>
+                    <div class="col-md-9">
+                        <div class="col-md-12">
+						<h2>问题:<a href="{% url 'question-detail' answer.question.id %}">{{ answer.question.title }}</a></h2>
+						{% if answer.reply_author %}
+							回复你：
+							{%endif%}
+                            {{ answer.content|safe }}
+							
+                       
+          			  </div>
+                    </div>
+                    <hr>
+					 <div class="col-md-12">
+            <hr>
+            <div class="col-md-4">
+               
+            </div>
+            <div class="col-md-4 text-center">
+                <a role="button" class="btn btn-primary btn" href="{% url 'reply-add' answer.id %}">回复</a>
+            </div>
+            <div class="col-md-4 text-right">
+                
+            </div>
+        </div>
+                </div>
+        {% endfor %}
+
+
+{% include 'utils/pagination.html' %}
+{% endblock %}

@@ -1,4 +1,4 @@
-﻿{% load staticfiles %}
+{% load staticfiles %}
 <div class="col-md-12 article">
     <div class="col-md-12 text-center">
         <h2 class="category-header">个人信息</h2>
@@ -35,15 +35,14 @@
         </p>
     </div>
     <div class="col-md-12">
-        {% if myuser.invitable == '1' %}<p>状态:<br>{{'接受邀请' }}</p>{% endif %}
-        {% if myuser.invitable == '0' %}<p>状态:<br>{{'拒绝邀请' }}</p>{% endif %}
         <p>电子邮件:<br>{{ myuser.user.email }}</p>
         <p>加入时间:<br>{{ myuser.user.date_joined|date:"Y-m-d" }}</p>
         <p>最后登录:<br>{{ myuser.user.last_login|date:"Y-m-d" }}&nbsp;{{ myuser.user.last_login|time:"H:i:s" }}</p>
-        
-        
         <p>
             <a href="{% url 'personal-inviting' myuser.id %}">收到邀请:{{ inviteing_number }}次</a>
+        </p>
+		<p>
+            <a href="{% url 'personal-reply' myuser.id %}">收到的回复:{{ reply_number }}次</a>
         </p>
     </div>
 </div>

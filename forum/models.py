@@ -31,6 +31,7 @@ class Question(models.Model):
 
 class Answer(models.Model):
     author = models.ForeignKey(User)
+    reply_author = models.ForeignKey(MyUser, null=True, default=None, blank=True)
     publish_time = models.DateTimeField(auto_now_add=True)
     content = UEditorField(imagePath="forum/question/image/", filePath="forum/question/files/")
     question = models.ForeignKey(Question)

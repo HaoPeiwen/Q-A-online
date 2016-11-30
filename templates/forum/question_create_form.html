@@ -1,4 +1,4 @@
-﻿{% extends 'website/frontend/frontend_base.html' %}
+{% extends 'website/frontend/frontend_base.html' %}
 {% load staticfiles %}
 
 {% block title %}
@@ -35,9 +35,9 @@
                 <label for="inviting_person" class="col-sm-2 control-label">邀请：</label>
                 <div class="col-sm-9">
                     <select name="inviting_person" id="inviting_person" class="form-control">
-                        <option value="">无</option>
+					<option value="">无</option>
                         {% for teacher in teacher_list %}
-                            {% if teacher.invitable == '1' %} <option value="{{ teacher.id }}">{{ teacher.nickname }}{% endif %}</option>
+                            <option value="{{ teacher.id }}">{{ teacher.nickname }}</option>
                         {% endfor %}
                     </select>
                 </div>

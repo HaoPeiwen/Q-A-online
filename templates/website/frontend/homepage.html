@@ -1,13 +1,51 @@
-﻿{% extends 'website/frontend/frontend_base.html' %}
+{% extends 'website/base.html' %}
+{% load staticfiles %}
+<style>
+	img{
+		width: auto;
+		height:auto;
+		max-height: 100%;
+		max-width: 100%;
+	}
+</style>
 
-{% block title %}
-    师生问答网
+{% block title %}师生问答网{% endblock %}
+
+{% block external_header %}{% endblock %}
+
+{% block body %}
+    {% include 'website/frontend/header.html' %}
+    <div class="main-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 left-content">
+					 <div class="jumbotron front-header text-white">
+       				 <div class="container">
+					 <img src="{% static 'image/logo.png' %}">
+					 </div></div>
+                    {% include 'forum/search_weight.html' %}
+                    {% block left %}{% include 'forum/question_weight.html' %}{% endblock %}
+                </div>
+                <div class="col-md-3 right-content">
+                    {% include "website/frontend/sidebar.html" %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include 'website/frontend/footer.html' %}
 {% endblock %}
 
-{% block external_header %}
+{% block external_js %}
+<script type="text/javascript">
+    $(function(){
+            if ($('body').height() < 950)
+            {
+                $('.main-page').height(430);
+            }
+        })
+</script>
+    {% block front_js %}
 
+    {% endblock %}
 {% endblock %}
 
-{% block left %}
-    {% include 'forum/question_weight.html' %}
-{% endblock %}

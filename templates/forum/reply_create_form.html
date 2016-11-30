@@ -1,0 +1,104 @@
+{% extends 'website/frontend/frontend_base.html' %}
+{% load staticfiles %}
+{% block title %}回复：{{ article.title }}{% endblock %}
+
+
+{% block external_header %}
+    <script type="text/javascript" src="{% static 'ueditor/ueditor.config.js' %}"></script>
+    <script type="text/javascript" src="{% static 'ueditor/ueditor.all.min.js' %}"></script>
+{% endblock %}
+
+
+{% block left %}
+    <div class="col-md-12 article">
+        <div class="col-md-12">
+            <div class="col-md-3">
+                <div class="col-md-12 text-center">
+                    {% if answer.author.myuser.photo %}
+                        <img src="{% url 'media' answer.author.myuser.photo %}" class="img-circle" width="140" height="140">
+                    {% else %}
+                        {% if answer.author.myuser.identity == 'T' %}
+               				 <img src="{% static 'image/default.png' %}" class="img-circle" width="140" height="140">
+						{% else %}
+							<img src="{% static 'image/default1.png' %}" class="img-circle" width="140" height="140">
+						{% endif %}
+                    {% endif %}
+                </div>
+                <div class="col-md-12 text-center">
+                    <h3 class="text-info">
+                        <a href="{% url 'personal-question' answer.author.myuser.user.id %}">{{ answer.author.myuser.nickname }}</a>
+                    </h3>
+                    <p>
+                        {% if answer.author.myuser.identity == 'T' %}
+                            <span class="label label-danger">
+                                教师
+                            </span>
+                        {% else %}
+                            <span class="label label-info">
+                                学生
+                            </span>
+                        {% endif %}
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <p>电子邮件:<br>{{ answer.author.myuser.user.email }}</p>
+                    <p>加入时间:<br>{{ answer.author.myuser.user.date_joined|date:"Y-m-d" }}</p>
+                    <p>最后登录:<p>{{ answer.author.myuser.user.last_login|date:"Y-m-d" }}<p>{{ answer.author.myuser.user.last_login|time:"H:i:s" }}</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="col-md-12">
+                    <h2>问题：<a href="{% url 'question-detail' answer.question.id %}">{{ answer.question.title }}</a></h2>
+                    <p><small><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>{{ answer.publish_time|date:"Y-m-d" }}&emsp;{{ answer.publish_time|time:"H:i:s" }}</small></p>
+
+                
+				 </div>
+                <div class="col-md-12">
+                    {{ answer.content|safe }}
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <hr>
+        <div class="col-md-4">
+          
+        </div>
+        <div class="col-md-4 text-center">
+            <a role="button" class="btn btn-primary btn" href="{% url 'question-detail' answer.question.id %}">返回</a>
+        </div>
+        <div class="col-md-4 text-right">
+          
+        </div>
+    </div>
+	</div>
+    <div class="col-md-12 col-xs 12 article">
+        <form class="form-horizontal" id="data-form" method="post">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="ueditor_textarea_content" class="col-sm-2 control-label">内容：</label>
+                <div class="col-sm-9">
+                    <script id="id_content" name="content" style="display: inline-block;" type="text/plain"></script>
+                    <script type="text/javascript">
+                        var w = $('#id_content').parent().width;
+                        var server_url = '/ueditor/controller/?imagePathFormat=forum/answer/images/%(datetime)s%(rnd)s.%(extname)s&filePathFormat=forum/answer/files/%(datetime)s%(rnd)s.%(extname)s';
+                        var id_Content = UE.getEditor('id_content',{'initialFrameWidth': w, 'initialFrameHeight': 400, 'serverUrl': encodeURI(server_url)});
+                        id_Content.ready(function(){});
+                    </script>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-3 col-sm-offset-6">
+                    <input  type="submit" class="btn btn-info" id="submit-btn">
+                </div>
+                <input type="reset" name="reset" style="display: none;">
+            </div>
+        </form>
+    </div>
+{% endblock %}
+
+
+{% block front_js %}
+{% endblock %}

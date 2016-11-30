@@ -1,18 +1,15 @@
 {% load staticfiles %}
 <style>
 	img{
-		width: auto;
-		height:auto;
+	
 		max-height: 100%;
 		max-width: 100%;
 	}
 </style>
+
 <header>
     {% include 'website/frontend/navbar.html' %}
-    <div class="jumbotron front-header text-white">
-        <div class="container">
-		<img src="{% static 'image/logo1.png' %}">
-            <p><a class="btn btn-danger btn-lg" href="{% url 'question-add' %}" style="margin:20px;" role="button">&emsp;去&nbsp;提&nbsp;问&nbsp;→&emsp;</a></p>
+   
         </div>
     </div>
 </header>

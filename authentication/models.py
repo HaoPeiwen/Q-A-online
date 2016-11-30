@@ -15,8 +15,6 @@ class MyUser(models.Model):
     photo = models.ImageField(upload_to='./user/photo/%Y/%m/%d', blank=True, null=True)
     identity = models.CharField(max_length=1, choices=IDENTITY_CHOICE)
     user = models.OneToOneField(User)
-    invitable =  models.CharField(max_length=1,default='1')
 
-    
     def __unicode__(self):
         return self.nickname
